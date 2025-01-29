@@ -54,9 +54,9 @@ function ProductDetails() {
         { range: [1151, 1200], price: 207 },
       ],
       height: [
-        { range: [150, 1500], multiplier: 1.0 },
-        { range: [1501, 2300], multiplier: 1.07 },
-        { range: [2301, 2800], multiplier: 1.22 },
+        { range: [150, 1500], addition: 0 },
+        { range: [1501, 2300], addition: 15 },
+        { range: [2301, 2800], addition: 45 },
       ],
     },
     invasive: {
@@ -79,19 +79,25 @@ function ProductDetails() {
         { range: [1051, 1100], price: 185 },
         { range: [1101, 1150], price: 190 },
         { range: [1151, 1200], price: 195 },
-        { range: [1201, 1250], price: 200 },
-        { range: [1251, 1300], price: 205 },
-        { range: [1301, 1350], price: 210 },
-        { range: [1351, 1400], price: 215 },
-        { range: [1401, 1450], price: 200 },
-        { range: [1451, 1500], price: 205 },
-        { range: [1501, 1550], price: 205 },
-
+        { range: [1201, 1250], price: 245 },
+        { range: [1251, 1300], price: 250 },
+        { range: [1301, 1350], price: 255 },
+        { range: [1351, 1400], price: 260 },
+        { range: [1401, 1450], price: 265 },
+        { range: [1451, 1500], price: 270 },
+        { range: [1501, 1550], price: 275 },
+        { range: [1551, 1600], price: 280 },
+        { range: [1601, 1650], price: 285 },
+        { range: [1651, 1700], price: 290 },
+        { range: [1701, 1750], price: 295 },
+        { range: [1751, 1800], price: 300 },
+        { range: [1801, 1850], price: 305 },
+        { range: [1851, 2000], price: 310 },
       ],
       height: [
-        { range: [150, 1500], multiplier: 1.0 },
-        { range: [1501, 2300], multiplier: 1.2 },
-        { range: [2301, 2800], multiplier: 1.5 },
+        { range: [150, 1500], addition: 0 },
+        { range: [1501, 2300], addition: 15 },
+        { range: [2301, 2800], addition: 45 },
       ],
     },
   };
@@ -124,12 +130,12 @@ function ProductDetails() {
         (entry) => width >= entry.range[0] && width <= entry.range[1]
       )?.price || 0;
 
-    const heightMultiplier =
+    const heightAddition =
       priceTable[mountingType].height.find(
         (entry) => height >= entry.range[0] && height <= entry.range[1]
-      )?.multiplier || 1;
+      )?.addition || 0;
 
-    return widthPrice * heightMultiplier;
+    return widthPrice + heightAddition;
   };
 
   useEffect(() => {
