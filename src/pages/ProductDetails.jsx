@@ -13,6 +13,7 @@ import ColorSelection from "../components/productDetails/ColorSelection";
 function ProductDetails() {
   const location = useLocation();
   const { product, selectedColor } = location.state || {};
+
   const { addToCart } = useCart();
 
   const [selectedListwa, setSelectedListwa] = useState(null);
@@ -161,6 +162,7 @@ function ProductDetails() {
     const newProduct = {
       id: uuidv4(),
       name: product.type,
+      color: selectedColor.name,
       imageLink: selectedColor.imageLink,
       price: price,
       quantity,
@@ -177,6 +179,7 @@ function ProductDetails() {
   return (
     <>
       <Progressbar />
+      <h2 className="text-center text-4xl font-bold">Wybrany kolor: {selectedColor.name}</h2>
       <div className="p-8 flex flex-col xl:flex-row gap-10">
         {/* Product Preview */}
         <ProductPreview
@@ -185,7 +188,6 @@ function ProductDetails() {
           selectedMocowanie={selectedMocowanie}
           mountingType={mountingType}
         />
-
         {/* Product Details */}
         <div className="flex-1">
           <MountingSelection

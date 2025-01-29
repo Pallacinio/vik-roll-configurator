@@ -1,8 +1,10 @@
 import React from "react";
 import { useCart } from "../context/CartContext";
+import { useNavigate } from "react-router-dom";
 
 function Cart() {
   const { cartItems, removeFromCart, updateQuantity } = useCart();
+  const navigate = useNavigate();
 
   const calculateTotal = () =>
     cartItems.reduce((total, item) => total + item.price * item.quantity, 0);
@@ -17,6 +19,7 @@ function Cart() {
       });
       if (response.ok) {
         alert("Zamówienie zostało zapisane.");
+        navigate("/order-summary"); 
       } else {
         alert("Błąd podczas zapisywania zamówienia.");
       }
@@ -44,8 +47,9 @@ function Cart() {
               />
               <div className="flex-grow">
                 <p className="font-bold">{item.name}</p>
+                <p>Kolor rolety: {item.color}</p>
                 <p>Cena: {item.price} zł</p>
-                <p>Listw: {item.selectedListwa?.name}</p>
+                <p>Listwa: {item.selectedListwa?.name}</p>
                 <p>Mocowania: {item.selectedMocowanie?.name}</p>
                 <p>Wymiary: szerokość {item.width} i wysokość {item.height}</p>
               </div>
