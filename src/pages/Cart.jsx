@@ -7,6 +7,24 @@ function Cart() {
   const calculateTotal = () =>
     cartItems.reduce((total, item) => total + item.price * item.quantity, 0);
 
+  const handleSubmitOrder = async () => {
+    const total = calculateTotal();
+    try {
+      const response = await fetch("http://localhost:5000/api/orders", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ items: cartItems, total }),
+      });
+      if (response.ok) {
+        alert("Zamówienie zostało zapisane.");
+      } else {
+        alert("Błąd podczas zapisywania zamówienia.");
+      }
+    } catch (error) {
+      console.error("Błąd:", error);
+    }
+  };    
+
   return (
     <div className="cart">
       <h2 className="text-2xl font-bold mb-4">Koszyk</h2>
@@ -58,6 +76,14 @@ function Cart() {
           ))}
           <div className="total mt-4 p-2 text-right">
             <p className="font-bold text-lg">Suma: {calculateTotal()} zł</p>
+          </div>
+          <div className="mt-4 text-right">
+            <button
+              onClick={handleSubmitOrder}
+              className="px-4 py-2 bg-blue-600 text-white font-bold rounded hover:bg-blue-700"
+            >
+              Złóż zamówienie
+            </button>
           </div>
         </div>
       )}
