@@ -26,19 +26,43 @@ function OrderSummary() {
     return <p>Ładowanie podsumowania zamówienia...</p>;
   }
 
+  const halfTotal = order.total / 2;
+
   return (
     <div className="order-summary">
-      <h2 className="text-2xl font-bold mb-4">Podsumowanie zamówienia</h2>
+      <h2 className="text-2xl font-bold mb-4 text-center">
+        Dziękujemy za zakupy!
+      </h2>
+      <p>
+        Aby sfinalizować zamówienie, skorzystaj z przycisku allegro poniżej.
+        Każda sztuka w aukcji odpowiada kwocie 2,5 zł.
+        Zamów odpowiednią liczbę sztuk, obliczając ją jako iloraz 155 ÷ 2,5:
+      </p>
+      <h4>
+        {halfTotal}
+        </h4>
+      <p>
+        Przy składaniu zamówienia na Allegro,
+        proszę wpisać numer zamówienia w polu „Uwagi do zakupu”.
+      </p>
+      <h4>
+        {order.orderNumber}
+      </h4>
+
+      <h2 className="text-2xl font-bold mb-4">Szczegóły zamówienia</h2>
+      <h2 className="text-2xl font-bold mb-4">Numer zamówienia: {order.orderNumber}</h2>
       <div>
         {order.items.map((item) => (
           <div key={item.id} className="flex items-center gap-4 mb-4">
             <img
-              src={item.imageLink}
+              srcSet={item.imageLink}
               alt={item.name}
               className="w-16 h-16 object-cover border rounded"
             />
             <div>
               <p className="font-bold">{item.name}</p>
+              <p>Kolor rolety: {item.color}</p>
+              <p>Montowanie: {item.mounting}</p>
               <p>Cena: {item.price} zł</p>
               <p>Ilość: {item.quantity}</p>
               <p>Listwa: {item.selectedListwa?.name}</p>

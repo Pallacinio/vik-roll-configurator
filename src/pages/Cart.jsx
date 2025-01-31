@@ -47,6 +47,7 @@ function Cart() {
               />
               <div className="flex-grow">
                 <p className="font-bold">{item.name}</p>
+                <p>Montaż: {item.mounting}</p>
                 <p>Kolor rolety: {item.color}</p>
                 <p>Cena: {item.price} zł</p>
                 <p>Listwa: {item.selectedListwa?.name}</p>

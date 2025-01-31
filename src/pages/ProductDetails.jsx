@@ -159,10 +159,16 @@ function ProductDetails() {
       return;
     }
 
+    const mountingLabels = {
+      nonInvasive: "Bezinwazyjny",
+      invasive: "Inwazyjny",
+    };    
+
     const newProduct = {
       id: uuidv4(),
       name: product.type,
       color: selectedColor.name,
+      mounting: mountingLabels[mountingType],
       imageLink: selectedColor.imageLink,
       price: price,
       quantity,

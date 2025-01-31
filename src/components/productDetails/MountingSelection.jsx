@@ -5,7 +5,7 @@ function MountingSelection({ mountingType, setMountingType }) {
 
     return (
       <div className="mb-6">
-        <h2 className="text-xl font-bold mb-4">MONTAŻ</h2>
+        <h2 className="text-xl font-bold mb-4">Montaż</h2>
         <div className="flex gap-8 flex-wrap">
           {[
             { type: "nonInvasive", label: "Bezinwazyjny", img: Bezinwazyjne },
