@@ -31,10 +31,10 @@ function ProductList() {
               key={index}
               to={`/products/${index}`}
               state={{ product }}
-              className="cursor-pointer relative bg-[#eeeeee] border rounded-lg p-2 shadow-md hover:shadow-lg transition-shadow duration-200 w-1/3 flex flex-row gap-10 group"
+              className="h-[250px] w-full md:w-1/3 cursor-pointer relative bg-[#eeeeee] border-2 border-[#544e4a] rounded-lg p-2 shadow-md hover:shadow-lg transition-shadow duration-200 flex flex-row gap-10 group"
             >
               <div className="w-1/2 h-auto rounded-md">
-                <img src={product.typeImage} alt={`${product.type} image`} />
+                <img src={product.typeImage} alt={`${product.type} image`} className="w-full h-full object-cover" />
               </div>
               <div className="w-1/2 h-auto rounded-md">
                 <h2 className="text-[#544e4a] text-2xl font-bold mt-2 mb-2">{product.type}</h2>

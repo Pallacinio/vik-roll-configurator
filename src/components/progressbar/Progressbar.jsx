@@ -18,7 +18,7 @@ function Progressbar() {
         return i + 1; // Indeksy zaczynają się od 0, więc dodajemy 1
       }
     }
-    return 1; // Domyślnie Etap 1
+    return 1; 
   };
 
   const activeStep = getActiveStep();
