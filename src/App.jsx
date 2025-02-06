@@ -6,6 +6,7 @@ import ProductColors from "./pages/ProductColors.jsx";
 import ProductDetails from "./pages/ProductDetails.jsx";
 import Cart from "./pages/Cart.jsx";
 import OrderSummary from "./pages/OrderSummary.jsx";
+import AdminPanel from "./pages/AdminPanel.jsx";
 import Content from "./components/content/Content.jsx";
 import Footer from "./components/footer/Footer.jsx";
 import { CartProvider } from "./context/CartContext"; 
@@ -23,6 +24,7 @@ function App() {
             <Route path="/product/details" element={<ProductDetails />} />
             <Route path="/cart" element={<Cart />} /> 
             <Route path="/order-summary" element={<OrderSummary />} />
+            <Route path="/admin-panel" element={<AdminPanel />} />
           </Routes>
         </Content>
       </BrowserRouter>

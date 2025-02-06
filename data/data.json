@@ -197,91 +197,92 @@
                 "name": "Antracyt",
                 "imageLinkInvasive": "../src/assets/roleta-standard/listwy/inwazyjne/PR_INW_ANTRACYT.png",
                 "imageLinkNonInvasive": "../src/assets/roleta-standard/listwy/bezinwazyjne/PR_BEZINW_ANTRACYT.png",
-                "imageColor": "../src/assets/roleta-standard/mocowania/kafelki/biale.png"
+                "imageColor": "../src/assets/mocowania/profil_antracyt.png",
+                "price": 0
             },
             {
                 "name": "Beżowy",
                 "imageLinkInvasive": "../src/assets/roleta-standard/listwy/inwazyjne/PR_INW_BEZOWY.png",
                 "imageLinkNonInvasive": "../src/assets/roleta-standard/listwy/bezinwazyjne/PR_BEZINW_BEZOWY.png",
-                "imageColor": "../src/assets/roleta-standard/mocowania/kafelki/biale.png"
+                "imageColor": "../src/assets/mocowania/profil_bez.png",
+                "price": 0
             },            
             {
                 "name": "Biały okleina",
                 "imageLinkInvasive": "../src/assets/roleta-standard/listwy/inwazyjne/PR_INW_BIALY_OKLEINA.png",
                 "imageLinkNonInvasive": "../src/assets/roleta-standard/listwy/bezinwazyjne/PR_BEZINW_BIALY_OKLEINA.png",
-                "imageColor": "../src/assets/roleta-standard/mocowania/kafelki/biale.png"
+                "imageColor": "../src/assets/mocowania/profil_bialy_okleina_10zl.png",
+                "price": 10
             },
             {
               "name": "Białe",
               "imageLinkInvasive": "../src/assets/roleta-standard/listwy/inwazyjne/PR_INW_BIALY.png",
               "imageLinkNonInvasive": "../src/assets/roleta-standard/listwy/bezinwazyjne/PR_BEZINW_BIALY.png",
-              "imageColor": "../src/assets/roleta-standard/mocowania/kafelki/biale.png"
+              "imageColor": "../src/assets/mocowania/profil_bialy.png",
+              "price": 0
             },
             {
                 "name": "Brązowy",
                 "imageLinkInvasive": "../src/assets/roleta-standard/listwy/inwazyjne/PR_INW_BRAZOWY.png",
                 "imageLinkNonInvasive": "../src/assets/roleta-standard/listwy/bezinwazyjne/PR_BEZINW_BRAZOWY.png",
-                "imageColor": "../src/assets/roleta-standard/mocowania/kafelki/biale.png"
+                "imageColor": "../src/assets/mocowania/profil_ciemny_braz.png",
+                "price": 0
             },
             {
-              "name": "Czarne",
+              "name": "Czarny mat",
               "imageLinkInvasive": "../src/assets/roleta-standard/listwy/inwazyjne/PR_INW_CZARNY_MAT.png",
               "imageLinkNonInvasive": "../src/assets/roleta-standard/listwy/bezinwazyjne/PR_BEZINW_CZARNY_MAT.png",
-              "imageColor": "../src/assets/roleta-standard/mocowania/kafelki/czarny.png"
+              "imageColor": "../src/assets/mocowania/profil_czarny_mat_10zl.png",
+              "price": 10
             },
             {
-                "name": "Dąb bagienny okleina",
+                "name": "Dąb bagienny",
                 "imageLinkInvasive": "../src/assets/roleta-standard/listwy/inwazyjne/PR_INW_DAB_BAGIENNY_OKLEINA.png",
                 "imageLinkNonInvasive": "../src/assets/roleta-standard/listwy/bezinwazyjne/PR_BEZINW_DAB_BAGIENNY_OKLEINA.png",
-                "imageColor": "../src/assets/roleta-standard/mocowania/kafelki/czarny.png"
-            },
-            {
-              "name": "Kremowy okleina",
-              "imageLinkInvasive": "../src/assets/roleta-standard/listwy/inwazyjne/PR_INW_KREMOWY_OKLEINA.png",
-              "imageLinkNonInvasive": "../src/assets/roleta-standard/listwy/bezinwazyjne/PR_BEZINW_KREMOWY_OKLEINA.png",
-              "imageColor": "../src/assets/roleta-standard/mocowania/kafelki/szary.png"
+                "imageColor": "../src/assets/mocowania/profil_dab_bagienny_10zl.png",
+                "price": 10
             },
             {
                 "name": "Mahoń",
                 "imageLinkInvasive": "../src/assets/roleta-standard/listwy/inwazyjne/PR_INW_MAHON.png",
                 "imageLinkNonInvasive": "../src/assets/roleta-standard/listwy/bezinwazyjne/PR_BEZINW_MAHON.png",
-                "imageColor": "../src/assets/roleta-standard/mocowania/kafelki/szary.png"
+                "imageColor": "../src/assets/mocowania/profil_mahon_10zl.png",
+                "price": 10
             },
             {
-                "name": "Orzech okleina",
+                "name": "Orzech",
                 "imageLinkInvasive": "../src/assets/roleta-standard/listwy/inwazyjne/PR_INW_ORZECH_OKLEINA.png",
                 "imageLinkNonInvasive": "../src/assets/roleta-standard/listwy/bezinwazyjne/PR_BEZINW_ORZECH_OKLEINA.png",
-                "imageColor": "../src/assets/roleta-standard/mocowania/kafelki/szary.png"
+                "imageColor": "../src/assets/mocowania/profil_orzech_10zl.png",
+                "price": 10
             },
             {
-                "name": "Sosna okleina",
+                "name": "Sosna",
                 "imageLinkInvasive": "../src/assets/roleta-standard/listwy/inwazyjne/PR_INW_SOSNA_OKLEINA.png",
                 "imageLinkNonInvasive": "../src/assets/roleta-standard/listwy/bezinwazyjne/PR_BEZINW_SOSNA_OKLEINA.png",
-                "imageColor": "../src/assets/roleta-standard/mocowania/kafelki/szary.png"
+                "imageColor": "../src/assets/mocowania/profil_sosna_10zl.png",
+                "price": 10
             },
             {
-                "name": "Srebrny anoda",
+                "name": "Srebrny",
                 "imageLinkInvasive": "../src/assets/roleta-standard/listwy/inwazyjne/PR_INW_SREBRNY_ANODA.png",
                 "imageLinkNonInvasive": "../src/assets/roleta-standard/listwy/bezinwazyjne/PR_BEZINW_SREBRNY_ANODA.png",
-                "imageColor": "../src/assets/roleta-standard/mocowania/kafelki/szary.png"
+                "imageColor": "../src/assets/mocowania/profil_srebrny.png",
+                "price": 0
             },            
-            {
-                "name": "Szary",
-                "imageLinkInvasive": "../src/assets/roleta-standard/listwy/inwazyjne/PR_INW_SZARY.png",
-                "imageLinkNonInvasive": "../src/assets/roleta-standard/listwy/bezinwazyjne/PR_BEZINW_SZARY.png",
-                "imageColor": "../src/assets/roleta-standard/mocowania/kafelki/szary.png"
-            },
             {
                 "name": "Winchester okleina",
                 "imageLinkInvasive": "../src/assets/roleta-standard/listwy/inwazyjne/PR_INW_WINCHESTER_OKLEINA.png",
                 "imageLinkNonInvasive": "../src/assets/roleta-standard/listwy/bezinwazyjne/PR_BEZINW_WINCHESTER_OKLEINA.png",
-                "imageColor": "../src/assets/roleta-standard/mocowania/kafelki/zloty.png"
+                "imageColor": "../src/assets/mocowania/profil_winchester_10zl.png",
+                "price": 10
             },
             {
               "name": "Złoty dąb",
               "imageLinkInvasive": "../src/assets/roleta-standard/listwy/inwazyjne/PR_INW_ZLOTY_DAB.png",
               "imageLinkNonInvasive": "../src/assets/roleta-standard/listwy/bezinwazyjne/PR_BEZINW_ZLOTY_DAB.png",
-              "imageColor": "../src/assets/roleta-standard/mocowania/kafelki/zloty.png"
+              "imageColor": "../src/assets/mocowania/profil_zloty_dab_10zl.png",
+              "price": 10
             }
           ],
           "mocowaniaColors": {

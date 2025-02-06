@@ -135,16 +135,23 @@ function ProductDetails() {
       priceTable[mountingType].height.find(
         (entry) => height >= entry.range[0] && height <= entry.range[1]
       )?.addition || 0;
+    
+    const listwaPrice = selectedListwa?.price || 0;
 
-    return widthPrice + heightAddition;
+    return widthPrice + heightAddition + listwaPrice;
   };
+
+  console.log("Selected Listwa:", selectedListwa);
+console.log("Listwa Price:", selectedListwa?.price);
+console.log("Type of price:", typeof selectedListwa?.price);
+
 
   useEffect(() => {
     if (width && height) {
       const calculatedPrice = calculatePrice();
       setPrice(calculatedPrice);
     }
-  }, [width, height, mountingType]);
+  }, [width, height, mountingType, selectedListwa]);
 
 
   const handleAddToCart = () => {
