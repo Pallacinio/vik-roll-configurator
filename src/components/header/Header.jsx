@@ -5,14 +5,18 @@ import iconCart from '../../assets/logo/cart.png'
 function Header() {
   return (
     <div className='flex p-4 justify-between items-center'>
-        <div className='w-1'>
-          <img srcSet={iconLogo} alt="" />
+        <div className='w-10 md:w-20'>
+          <a href="/products">
+            <img srcSet={iconLogo}/>
+          </a>
         </div>
         <div>
-            plisy
+
         </div>
-        <div className='w-10'>
-          <img srcSet={iconCart} alt="" />
+        <div className='w-10 md:w-15'>
+          <a href="/cart">
+            <img srcSet={iconCart} alt="" />
+          </a>
         </div>
     </div>
   )

@@ -15,8 +15,8 @@ function ProductColors() {
     <>
       <Progressbar/>
       <div className="p-8">
-        <h1 className="text-3xl font-bold mb-8 text-center">{product.type} Colors</h1>
-        <div className="flex items-center justify-center flex-wrap gap-20 w-full">
+        {/* <h1 className="text-3xl font-bold mb-8 text-center">{product.type} Colors</h1> */}
+        <div className="flex items-center justify-center flex-wrap gap-10 w-full">
           {product.options.colors.map((color, index) => {
             const [currentImage, setCurrentImage] = useState(color.imageLink);
 
@@ -33,7 +33,7 @@ function ProductColors() {
               <div
                 key={index}
                 onClick={handleSelectColor} 
-                className="cursor-pointer flex flex-col w-full sm:w-1/3 xl:w-1/5 items-center gap-1"
+                className="cursor-pointer flex flex-col w-full sm:w-1/4 xl:w-1/5 items-center gap-1"
               >
                 <img
                   src={currentImage}

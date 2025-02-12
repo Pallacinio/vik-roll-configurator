@@ -1,17 +1,34 @@
 import React, { useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 function AdminPanel() {
   const [orders, setOrders] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
+  const navigate = useNavigate();
 
   useEffect(() => {
+    const token = localStorage.getItem("adminToken");
+
+    if (!token) {
+      navigate("/login"); // Przekierowanie do logowania, jeśli brak tokena
+      return;
+    }
+
     const fetchOrders = async () => {
       try {
-        const response = await fetch("http://localhost:5000/api/orders");
+        const response = await fetch("http://localhost:5000/api/orders", {
+          method: "GET",
+          headers: {
+            "Content-Type": "application/json",
+            Authorization: `Bearer ${token}`, // Dodaj token do nagłówków
+          },
+        });
+
         if (!response.ok) {
           throw new Error("Błąd podczas pobierania zamówień");
         }
+
         const data = await response.json();
         setOrders(data);
       } catch (error) {
@@ -22,7 +39,7 @@ function AdminPanel() {
     };
 
     fetchOrders();
-  }, []);
+  }, [navigate]);
 
   if (loading) return <p>Ładowanie zamówień...</p>;
   if (error) return <p className="text-red-500">Błąd: {error}</p>;
@@ -30,6 +47,16 @@ function AdminPanel() {
   return (
     <div className="admin-panel p-6">
       <h2 className="text-2xl font-bold mb-6 text-center uppercase">Panel Administracyjny</h2>
+
+      <button
+        className="bg-red-500 text-white px-4 py-2 rounded-md mb-4"
+        onClick={() => {
+          localStorage.removeItem("adminToken");
+          navigate("/login");
+        }}
+      >
+        Wyloguj
+      </button>
 
       {orders.length === 0 ? (
         <p className="text-center text-gray-500">Brak zamówień</p>
@@ -41,7 +68,6 @@ function AdminPanel() {
                 <th className="border p-2">Numer zamówienia</th>
                 <th className="border p-2">Szczegóły produktów</th>
                 <th className="border p-2">Łączna kwota</th>
-                {/* <th className="border p-2">Status</th> */}
               </tr>
             </thead>
             <tbody>
@@ -68,7 +94,6 @@ function AdminPanel() {
                     )}
                   </td>
                   <td className="border p-2">{order.total} zł</td>
-                  {/* <td className="border p-2">{order.status || "Nieznany"}</td> */}
                 </tr>
               ))}
             </tbody>

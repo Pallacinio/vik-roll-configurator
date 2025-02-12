@@ -30,11 +30,11 @@ function Cart() {
 
   return (
     <div className="cart">
-      <h2 className="text-2xl font-bold mb-4">Koszyk</h2>
+      <h2 className="text-2xl font-bold mb-4 text-center uppercase">Koszyk</h2>
       {cartItems.length === 0 ? (
-        <p>Twój koszyk jest pusty.</p>
+        <p className="p-10 text-center uppercase">Twój koszyk jest pusty</p>
       ) : (
-        <div>
+        <div className="pb-10">
           {cartItems.map((item) => (
             <div
               key={item.id}
@@ -58,14 +58,14 @@ function Cart() {
                 <div className="flex items-center gap-2">
                   <button
                     onClick={() => updateQuantity(item.id, Math.max(item.quantity - 1, 1))}
-                    className="px-2 py-1 border rounded bg-gray-200 hover:bg-gray-300"
+                    className="px-2 py-0 bg-[#e9e9e9] border-[#544e4a] border-2 rounded-lg text-lg"
                   >
                     -
                   </button>
                   <span>{item.quantity}</span>
                   <button
                     onClick={() => updateQuantity(item.id, item.quantity + 1)}
-                    className="px-2 py-1 border rounded bg-gray-200 hover:bg-gray-300"
+                    className="px-2 py-0 bg-[#e9e9e9] border-[#544e4a] border-2 rounded-lg text-lg"
                   >
                     +
                   </button>
@@ -79,13 +79,13 @@ function Cart() {
               </div>
             </div>
           ))}
-          <div className="total mt-4 p-2 text-right">
+          <div className="total mt-4 p-2 text-center md:text-right">
             <p className="font-bold text-lg">Suma: {calculateTotal()} zł</p>
           </div>
-          <div className="mt-4 text-right">
+          <div className="mt-4 text-center md:text-right">
             <button
               onClick={handleSubmitOrder}
-              className="px-4 py-2 bg-blue-600 text-white font-bold rounded hover:bg-blue-700"
+              className="px-4 py-2 bg-[#544e4a] text-white font-bold rounded hover:bg-[#7c7068] uppercase"
             >
               Złóż zamówienie
             </button>

@@ -1,6 +1,6 @@
 function ProductPreview({ selectedColor, selectedListwa, selectedMocowanie, mountingType }) {
     return (
-      <div className="relative flex-1 flex items-center justify-center min-h-[400px] md:min-h-[600px]">
+      <div className="relative flex-1 flex items-start justify-center min-h-[400px] md:min-h-[600px]">
         <img
           src={selectedColor?.imageLink}
           alt="Product Preview"

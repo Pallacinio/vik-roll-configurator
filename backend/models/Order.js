@@ -39,13 +39,4 @@ orderSchema.pre("save", async function (next) {
     next();
 });
 
-// orderSchema.pre("save", async function (next) {
-//     if (!this.orderNumber) {
-//         const lastOrder = await this.constructor.findOne().sort("-orderNumber");
-//         this.orderNumber = lastOrder ? lastOrder.orderNumber + 1 : 1;
-//     }
-//     next();
-// });
-
-
 module.exports = mongoose.model("Order", orderSchema);

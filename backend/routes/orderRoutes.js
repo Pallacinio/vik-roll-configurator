@@ -31,3 +31,10 @@ router.get("/", async (req, res) => {
 });
 
 module.exports = router;
+
+const { protect } = require("../middleware/authMiddleware");
+
+router.get("/", protect, async (req, res) => {
+  const orders = await Order.find();
+  res.json(orders);
+});

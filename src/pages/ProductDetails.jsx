@@ -192,7 +192,11 @@ console.log("Type of price:", typeof selectedListwa?.price);
   return (
     <>
       <Progressbar />
-      <h2 className="text-center text-4xl font-bold">Wybrany kolor: {selectedColor.name}</h2>
+      <h2 className="text-lg uppercase text-[#544e4a] text-center">
+        Roleta {product.type}
+        <br />
+        Wybrany kolor: {selectedColor.name}
+      </h2>
       <div className="p-8 flex flex-col xl:flex-row gap-10">
         {/* Product Preview */}
         <ProductPreview
