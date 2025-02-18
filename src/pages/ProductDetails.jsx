@@ -10,6 +10,8 @@ import DimensionsInput from "../components/productDetails/DimensionsInput";
 import CartSummary from "../components/productDetails/CartSummary";
 import ColorSelection from "../components/productDetails/ColorSelection";
 
+import Swal from "sweetalert2";
+
 function ProductDetails() {
   const location = useLocation();
   const { product, selectedColor } = location.state || {};
@@ -142,8 +144,8 @@ function ProductDetails() {
   };
 
   console.log("Selected Listwa:", selectedListwa);
-console.log("Listwa Price:", selectedListwa?.price);
-console.log("Type of price:", typeof selectedListwa?.price);
+  console.log("Listwa Price:", selectedListwa?.price);
+  console.log("Type of price:", typeof selectedListwa?.price);
 
 
   useEffect(() => {
@@ -162,7 +164,15 @@ console.log("Type of price:", typeof selectedListwa?.price);
     }
 
     if (!width || !height || !selectedListwa || !selectedMocowanie) {
-      alert("Proszę wypełnić wszystkie pola przed dodaniem do koszyka.");
+      Swal.fire({
+        icon: "warning",
+        title: "Uwaga!",
+        text: "Proszę wypełnić wszystkie pola przed dodaniem do koszyka.",
+        confirmButtonText: "OK",
+        customClass: {
+          confirmButton: 'bg-[#544e4a] text-white'
+        }
+      });
       return;
     }
 
@@ -186,7 +196,18 @@ console.log("Type of price:", typeof selectedListwa?.price);
     };
 
     addToCart(newProduct);
-    alert("Produkt został dodany do koszyka!");
+
+    Swal.fire({
+      icon: "success",
+      title: "Produkt został dodany do koszyka!",
+      confirmButtonText: "OK",
+      customClass: {
+        confirmButton: 'bg-[#544e4a] text-white'
+      }
+    }).then(() => {
+      window.location.href = '/cart';
+    });
+    
   };
 
   return (

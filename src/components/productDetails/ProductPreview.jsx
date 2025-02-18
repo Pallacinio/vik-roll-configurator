@@ -1,8 +1,17 @@
 function ProductPreview({ selectedColor, selectedListwa, selectedMocowanie, mountingType }) {
     return (
       <div className="relative flex-1 flex items-start justify-center min-h-[400px] md:min-h-[600px]">
-        <img
+        {/* <img
           src={selectedColor?.imageLink}
+          alt="Product Preview"
+          className="absolute rounded-lg shadow-lg max-h-[400px] md:max-h-[600px] object-contain"
+        /> */}
+        <img
+          src={
+            mountingType === "nonInvasive"
+              ? selectedColor?.imageLinkSecond
+              : selectedColor?.imageLink
+          }
           alt="Product Preview"
           className="absolute rounded-lg shadow-lg max-h-[400px] md:max-h-[600px] object-contain"
         />

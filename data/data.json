@@ -10,182 +10,1049 @@
             {
               "name": "Kość Słoniowa",
               "imageLink": "../src/assets/roleta-standard/okno/100_OS_INW_kosc_sloniowa.jpg",
+              "imageLinkSecond": "../src/assets/roleta-standard/okno/bezinw/100_OS_BEZINW.jpg",
               "imageLinkHover": "../src/assets/roleta-standard/tkanina/100_RS_kosc_sloniowa.jpg"
             },
             {
               "name": "Jasny Beż",
               "imageLink": "../src/assets/roleta-standard/okno/101_OS_INW_jasny_bez.jpg",
+              "imageLinkSecond": "../src/assets/roleta-standard/okno/bezinw/101_OS_BEZINW.jpg",
               "imageLinkHover": "../src/assets/roleta-standard/tkanina/101_RS_jasny_bez.jpg"
             },
             {
               "name": "Beżowy",
               "imageLink": "../src/assets/roleta-standard/okno/102_OS_INW_bezowy.jpg",
+              "imageLinkSecond": "../src/assets/roleta-standard/okno/bezinw/102_OS_BEZINW.jpg",
               "imageLinkHover": "../src/assets/roleta-standard/tkanina/102_RS_bezowy.jpg"
             },
             {
               "name": "Oliwkowy",
               "imageLink": "../src/assets/roleta-standard/okno/103_OS_INW_oliwkowy.jpg",
+              "imageLinkSecond": "../src/assets/roleta-standard/okno/bezinw/103_OS_BEZINW.jpg",
               "imageLinkHover": "../src/assets/roleta-standard/tkanina/103_RS_oliwkowy.jpg"
             },
             {
               "name": "Śliwkowy",
               "imageLink": "../src/assets/roleta-standard/okno/104_OS_INW_sliwkowy.jpg",
+              "imageLinkSecond": "../src/assets/roleta-standard/okno/bezinw/104_OS_BEZINW.jpg",
               "imageLinkHover": "../src/assets/roleta-standard/tkanina/104_RS_sliwkowy.jpg"
             },
             {
               "name": "Słomkowy",
               "imageLink": "../src/assets/roleta-standard/okno/105_OS_INW_slomkowy.jpg",
+              "imageLinkSecond": "../src/assets/roleta-standard/okno/bezinw/105_OS_BEZINW.jpg",
               "imageLinkHover": "../src/assets/roleta-standard/tkanina/105_RS_slomkowy.jpg"
             },
             {
               "name": "Orzechowy",
               "imageLink": "../src/assets/roleta-standard/okno/106_OS_INW_orzechowy.jpg",
+              "imageLinkSecond": "../src/assets/roleta-standard/okno/bezinw/106_OS_BEZINW.jpg",
               "imageLinkHover": "../src/assets/roleta-standard/tkanina/106_RS_orzechowy.jpg"
             },
             {
               "name": "Brzoskwiniowy",
               "imageLink": "../src/assets/roleta-standard/okno/107_OS_INW_brzoskwiniowy.jpg",
+              "imageLinkSecond": "../src/assets/roleta-standard/okno/bezinw/107_OS_BEZINW.jpg",
               "imageLinkHover": "../src/assets/roleta-standard/tkanina/107_RS_brzoskwiniowy.jpg"
             },
             {
               "name": "Pomarańczowy",
               "imageLink": "../src/assets/roleta-standard/okno/108_OS_INW_pomaranczowy.jpg",
+              "imageLinkSecond": "../src/assets/roleta-standard/okno/bezinw/108_OS_BEZINW.jpg",
               "imageLinkHover": "../src/assets/roleta-standard/tkanina/108_RS_pomaranczowy.jpg"
             },
             {
               "name": "Kasztanowy",
               "imageLink": "../src/assets/roleta-standard/okno/109_OS_INW_kasztanowy.jpg",
+              "imageLinkSecond": "../src/assets/roleta-standard/okno/bezinw/109_OS_BEZINW.jpg",
               "imageLinkHover": "../src/assets/roleta-standard/tkanina/109_RS_kasztanowy.jpg"
             },
             {
               "name": "Blady Fiolet",
               "imageLink": "../src/assets/roleta-standard/okno/110_OS_INW_blady_fiolet.jpg",
+              "imageLinkSecond": "../src/assets/roleta-standard/okno/bezinw/110_OS_BEZINW.jpg",
               "imageLinkHover": "../src/assets/roleta-standard/tkanina/110_RS_blady_fiolet.jpg"
             },
             {
               "name": "Jasnyszary",
               "imageLink": "../src/assets/roleta-standard/okno/111_OS_INW_jasnyszary.jpg",
+              "imageLinkSecond": "../src/assets/roleta-standard/okno/bezinw/111_OS_BEZINW.jpg",
               "imageLinkHover": "../src/assets/roleta-standard/tkanina/111_RS_jasnyszary.jpg"
             },
             {
               "name": "Ciemnoszary",
               "imageLink": "../src/assets/roleta-standard/okno/112_OS_INW_ciemnoszary.jpg",
+              "imageLinkSecond": "../src/assets/roleta-standard/okno/bezinw/112_OS_BEZINW.jpg",
               "imageLinkHover": "../src/assets/roleta-standard/tkanina/112_RS_ciemnoszary.jpg"
             },
             {
               "name": "Czarny",
               "imageLink": "../src/assets/roleta-standard/okno/113_OS_INW_czarny.jpg",
+              "imageLinkSecond": "../src/assets/roleta-standard/okno/bezinw/113_OS_BEZINW.jpg",
               "imageLinkHover": "../src/assets/roleta-standard/tkanina/113_RS_czarny.jpg"
             },
             {
               "name": "Ziemisty",
               "imageLink": "../src/assets/roleta-standard/okno/114_OS_INW_ziemisty.jpg",
+              "imageLinkSecond": "../src/assets/roleta-standard/okno/bezinw/114_OS_BEZINW.jpg",
               "imageLinkHover": "../src/assets/roleta-standard/tkanina/114_RS_ziemisty.jpg"
             },
             {
               "name": "Turkusowy",
               "imageLink": "../src/assets/roleta-standard/okno/115_OS_INW_turkusowy.jpg",
+              "imageLinkSecond": "../src/assets/roleta-standard/okno/bezinw/115_OS_BEZINW.jpg",
               "imageLinkHover": "../src/assets/roleta-standard/tkanina/115_RS_turkusowy.jpg"
             },
             {
               "name": "Kremowy",
               "imageLink": "../src/assets/roleta-standard/okno/116_OS_INW_kremowy.jpg",
+              "imageLinkSecond": "../src/assets/roleta-standard/okno/bezinw/116_OS_BEZINW.jpg",
               "imageLinkHover": "../src/assets/roleta-standard/tkanina/116_RS_kremowy.jpg"
             },
             {
               "name": "Burgundowy",
               "imageLink": "../src/assets/roleta-standard/okno/117_OS_INW_burgundowy.jpg",
+              "imageLinkSecond": "../src/assets/roleta-standard/okno/bezinw/117_OS_BEZINW.jpg",
               "imageLinkHover": "../src/assets/roleta-standard/tkanina/117_RS_burgundowy.jpg"
             },
             {
               "name": "Fioletowy",
               "imageLink": "../src/assets/roleta-standard/okno/118_OS_INW_fioletowy.jpg",
+              "imageLinkSecond": "../src/assets/roleta-standard/okno/bezinw/118_OS_BEZINW.jpg",
               "imageLinkHover": "../src/assets/roleta-standard/tkanina/118_RS_fioletowy.jpg"
             },
             {
               "name": "Ciemny Granat",
               "imageLink": "../src/assets/roleta-standard/okno/119_OS_INW_ciemny_granat.jpg",
+              "imageLinkSecond": "../src/assets/roleta-standard/okno/bezinw/119_OS_BEZINW.jpg",
               "imageLinkHover": "../src/assets/roleta-standard/tkanina/119_RS_ciemny_granat.jpg"
             },
             {
               "name": "Bladoróżowy",
               "imageLink": "../src/assets/roleta-standard/okno/120_OS_INW_bladorozowy.jpg",
+              "imageLinkSecond": "../src/assets/roleta-standard/okno/bezinw/120_OS_BEZINW.jpg",
               "imageLinkHover": "../src/assets/roleta-standard/tkanina/120_RS_bladorozowy.jpg"
             },
             {
               "name": "Limonkowy",
               "imageLink": "../src/assets/roleta-standard/okno/121_OS_INW_limonkowy.jpg",
+              "imageLinkSecond": "../src/assets/roleta-standard/okno/bezinw/121_OS_BEZINW.jpg",
               "imageLinkHover": "../src/assets/roleta-standard/tkanina/121_RS_limonkowy.jpg"
             },
             {
               "name": "Granatowy",
               "imageLink": "../src/assets/roleta-standard/okno/122_OS_INW_granatowy.jpg",
+              "imageLinkSecond": "../src/assets/roleta-standard/okno/bezinw/122_OS_BEZINW.jpg",
               "imageLinkHover": "../src/assets/roleta-standard/tkanina/122_RS_granatowy.jpg"
             },
             {
               "name": "Ciemnoczerwony",
               "imageLink": "../src/assets/roleta-standard/okno/123_OS_INW_ciemnoczerwony.jpg",
+              "imageLinkSecond": "../src/assets/roleta-standard/okno/bezinw/123_OS_BEZINW.jpg",
               "imageLinkHover": "../src/assets/roleta-standard/tkanina/123_RS_ciemnoczerwony.jpg"
             },
             {
               "name": "Karmazynowy",
               "imageLink": "../src/assets/roleta-standard/okno/124_OS_INW_karmazynowy.jpg",
+              "imageLinkSecond": "../src/assets/roleta-standard/okno/bezinw/124_OS_BEZINW.jpg",
               "imageLinkHover": "../src/assets/roleta-standard/tkanina/124_RS_karmazynowy.jpg"
             },
             {
               "name": "Malinowy",
               "imageLink": "../src/assets/roleta-standard/okno/125_OS_INW_malinowy.jpg",
+              "imageLinkSecond": "../src/assets/roleta-standard/okno/bezinw/125_OS_BEZINW.jpg",
               "imageLinkHover": "../src/assets/roleta-standard/tkanina/125_RS_malinowy.jpg"
             },
             {
               "name": "Niebieski",
               "imageLink": "../src/assets/roleta-standard/okno/126_OS_INW_niebieski.jpg",
+              "imageLinkSecond": "../src/assets/roleta-standard/okno/bezinw/126_OS_BEZINW.jpg",
               "imageLinkHover": "../src/assets/roleta-standard/tkanina/126_RS_niebieski.jpg"
             },
             {
               "name": "Ciemny Brąz",
               "imageLink": "../src/assets/roleta-standard/okno/128_OS_INW_ciemny_braz.jpg",
+              "imageLinkSecond": "../src/assets/roleta-standard/okno/bezinw/128_OS_BEZINW.jpg",
               "imageLinkHover": "../src/assets/roleta-standard/tkanina/128_RS_ciemny_braz.jpg"
             },
             {
               "name": "Szary",
               "imageLink": "../src/assets/roleta-standard/okno/129_OS_INW_szary.jpg",
+              "imageLinkSecond": "../src/assets/roleta-standard/okno/bezinw/129_OS_BEZINW.jpg",
               "imageLinkHover": "../src/assets/roleta-standard/tkanina/129_RS_szary.jpg"
             },
             {
               "name": "Szaroniebieski",
               "imageLink": "../src/assets/roleta-standard/okno/130_OS_INW_szaroniebieski.jpg",
+              "imageLinkSecond": "../src/assets/roleta-standard/okno/bezinw/130_OS_BEZINW.jpg",
               "imageLinkHover": "../src/assets/roleta-standard/tkanina/130_RS_szaroniebieski.jpg"
             },
             {
               "name": "Żółty Pastelowy",
               "imageLink": "../src/assets/roleta-standard/okno/131_OS_INW_zolty_pastelowy.jpg",
+              "imageLinkSecond": "../src/assets/roleta-standard/okno/bezinw/131_OS_BEZINW.jpg",
               "imageLinkHover": "../src/assets/roleta-standard/tkanina/131_RS_zolty_pastelowy.jpg"
             },
             {
               "name": "Popielaty",
               "imageLink": "../src/assets/roleta-standard/okno/132_OS_INW_popielaty.jpg",
+              "imageLinkSecond": "../src/assets/roleta-standard/okno/bezinw/132_OS_BEZINW.jpg",
               "imageLinkHover": "../src/assets/roleta-standard/tkanina/132_RS_popielaty.jpg"
             },
             {
               "name": "Jasna Szarość",
               "imageLink": "../src/assets/roleta-standard/okno/134_OS_INW_jasna_szarosc.jpg",
+              "imageLinkSecond": "../src/assets/roleta-standard/okno/bezinw/134_OS_BEZINW.jpg",
               "imageLinkHover": "../src/assets/roleta-standard/tkanina/134_RS_jasna_szarosc.jpg"
             },
             {
               "name": "Grafitowy",
               "imageLink": "../src/assets/roleta-standard/okno/135_OS_INW_grafitowy.jpg",
+              "imageLinkSecond": "../src/assets/roleta-standard/okno/bezinw/135_OS_BEZINW.jpg",
               "imageLinkHover": "../src/assets/roleta-standard/tkanina/135_RS_grafitowy.jpg"
             },
             {
               "name": "Kobaltowy",
               "imageLink": "../src/assets/roleta-standard/okno/136_OS_INW_kobaltowy.jpg",
+              "imageLinkSecond": "../src/assets/roleta-standard/okno/bezinw/136_OS_BEZINW.jpg",
               "imageLinkHover": "../src/assets/roleta-standard/tkanina/136_RS_kobaltowy.jpg"
             },
             {
               "name": "Czarny Mat",
               "imageLink": "../src/assets/roleta-standard/okno/137_OS_INW_czarny_mat.jpg",
+              "imageLinkSecond": "../src/assets/roleta-standard/okno/bezinw/137_OS_BEZINW.jpg",
               "imageLinkHover": "../src/assets/roleta-standard/tkanina/137_RS_czarny_mat.jpg"
+            }
+          ],  
+          "mounting": {
+            "invasive": true,
+            "nonInvasive": true
+          },
+          "listwyColors": [
+            {
+                "name": "Antracyt",
+                "imageLinkInvasive": "../src/assets/roleta-standard/listwy/inwazyjne/PR_INW_ANTRACYT.png",
+                "imageLinkNonInvasive": "../src/assets/roleta-standard/listwy/bezinwazyjne/PR_BEZINW_ANTRACYT.png",
+                "imageColor": "../src/assets/mocowania/profil_antracyt.png",
+                "price": 0
+            },
+            {
+                "name": "Beżowy",
+                "imageLinkInvasive": "../src/assets/roleta-standard/listwy/inwazyjne/PR_INW_BEZOWY.png",
+                "imageLinkNonInvasive": "../src/assets/roleta-standard/listwy/bezinwazyjne/PR_BEZINW_BEZOWY.png",
+                "imageColor": "../src/assets/mocowania/profil_bez.png",
+                "price": 0
+            },            
+            {
+                "name": "Biały okleina",
+                "imageLinkInvasive": "../src/assets/roleta-standard/listwy/inwazyjne/PR_INW_BIALY_OKLEINA.png",
+                "imageLinkNonInvasive": "../src/assets/roleta-standard/listwy/bezinwazyjne/PR_BEZINW_BIALY_OKLEINA.png",
+                "imageColor": "../src/assets/mocowania/profil_bialy_okleina_10zl.png",
+                "price": 10
+            },
+            {
+              "name": "Białe",
+              "imageLinkInvasive": "../src/assets/roleta-standard/listwy/inwazyjne/PR_INW_BIALY.png",
+              "imageLinkNonInvasive": "../src/assets/roleta-standard/listwy/bezinwazyjne/PR_BEZINW_BIALY.png",
+              "imageColor": "../src/assets/mocowania/profil_bialy.png",
+              "price": 0
+            },
+            {
+                "name": "Brązowy",
+                "imageLinkInvasive": "../src/assets/roleta-standard/listwy/inwazyjne/PR_INW_BRAZOWY.png",
+                "imageLinkNonInvasive": "../src/assets/roleta-standard/listwy/bezinwazyjne/PR_BEZINW_BRAZOWY.png",
+                "imageColor": "../src/assets/mocowania/profil_ciemny_braz.png",
+                "price": 0
+            },
+            {
+              "name": "Czarny mat",
+              "imageLinkInvasive": "../src/assets/roleta-standard/listwy/inwazyjne/PR_INW_CZARNY_MAT.png",
+              "imageLinkNonInvasive": "../src/assets/roleta-standard/listwy/bezinwazyjne/PR_BEZINW_CZARNY_MAT.png",
+              "imageColor": "../src/assets/mocowania/profil_czarny_mat_10zl.png",
+              "price": 10
+            },
+            {
+                "name": "Dąb bagienny",
+                "imageLinkInvasive": "../src/assets/roleta-standard/listwy/inwazyjne/PR_INW_DAB_BAGIENNY_OKLEINA.png",
+                "imageLinkNonInvasive": "../src/assets/roleta-standard/listwy/bezinwazyjne/PR_BEZINW_DAB_BAGIENNY_OKLEINA.png",
+                "imageColor": "../src/assets/mocowania/profil_dab_bagienny_10zl.png",
+                "price": 10
+            },
+            {
+                "name": "Mahoń",
+                "imageLinkInvasive": "../src/assets/roleta-standard/listwy/inwazyjne/PR_INW_MAHON.png",
+                "imageLinkNonInvasive": "../src/assets/roleta-standard/listwy/bezinwazyjne/PR_BEZINW_MAHON.png",
+                "imageColor": "../src/assets/mocowania/profil_mahon_10zl.png",
+                "price": 10
+            },
+            {
+                "name": "Orzech",
+                "imageLinkInvasive": "../src/assets/roleta-standard/listwy/inwazyjne/PR_INW_ORZECH_OKLEINA.png",
+                "imageLinkNonInvasive": "../src/assets/roleta-standard/listwy/bezinwazyjne/PR_BEZINW_ORZECH_OKLEINA.png",
+                "imageColor": "../src/assets/mocowania/profil_orzech_10zl.png",
+                "price": 10
+            },
+            {
+                "name": "Sosna",
+                "imageLinkInvasive": "../src/assets/roleta-standard/listwy/inwazyjne/PR_INW_SOSNA_OKLEINA.png",
+                "imageLinkNonInvasive": "../src/assets/roleta-standard/listwy/bezinwazyjne/PR_BEZINW_SOSNA_OKLEINA.png",
+                "imageColor": "../src/assets/mocowania/profil_sosna_10zl.png",
+                "price": 10
+            },
+            {
+                "name": "Srebrny",
+                "imageLinkInvasive": "../src/assets/roleta-standard/listwy/inwazyjne/PR_INW_SREBRNY_ANODA.png",
+                "imageLinkNonInvasive": "../src/assets/roleta-standard/listwy/bezinwazyjne/PR_BEZINW_SREBRNY_ANODA.png",
+                "imageColor": "../src/assets/mocowania/profil_srebrny.png",
+                "price": 0
+            },            
+            {
+                "name": "Winchester okleina",
+                "imageLinkInvasive": "../src/assets/roleta-standard/listwy/inwazyjne/PR_INW_WINCHESTER_OKLEINA.png",
+                "imageLinkNonInvasive": "../src/assets/roleta-standard/listwy/bezinwazyjne/PR_BEZINW_WINCHESTER_OKLEINA.png",
+                "imageColor": "../src/assets/mocowania/profil_winchester_10zl.png",
+                "price": 10
+            },
+            {
+              "name": "Złoty dąb",
+              "imageLinkInvasive": "../src/assets/roleta-standard/listwy/inwazyjne/PR_INW_ZLOTY_DAB.png",
+              "imageLinkNonInvasive": "../src/assets/roleta-standard/listwy/bezinwazyjne/PR_BEZINW_ZLOTY_DAB.png",
+              "imageColor": "../src/assets/mocowania/profil_zloty_dab_10zl.png",
+              "price": 10
+            }
+          ],
+          "mocowaniaColors": {
+            "invasive": [
+              { 
+                "name": "Białe", 
+                "imageLink": "../src/assets/roleta-standard/mocowania/inwazyjne/MOC_INW_BIALY.png",
+                "imageColor": "../src/assets/roleta-standard/mocowania/wybierz-kolor/bialy.png"
+              },
+              { 
+                "name": "Czarne", 
+                "imageLink": "../src/assets/roleta-standard/mocowania/inwazyjne/MOC_INW_CZARNY.png",
+                "imageColor": "../src/assets/roleta-standard/mocowania/wybierz-kolor/czarny.png"
+              },
+              { 
+                "name": "Beżowy", 
+                "imageLink": "../src/assets/roleta-standard/mocowania/inwazyjne/MOC_INW_BEZOWY.png",
+                "imageColor": "../src/assets/roleta-standard/mocowania/wybierz-kolor/bezowy.png"
+              },
+              { 
+                "name": "Brązowy", 
+                "imageLink": "../src/assets/roleta-standard/mocowania/inwazyjne/MOC_INW_BRAZOWY.png",
+                "imageColor": "../src/assets/roleta-standard/mocowania/wybierz-kolor/braz.png"
+              },
+              { 
+                "name": "Jasny Brąz", 
+                "imageLink": "../src/assets/roleta-standard/mocowania/inwazyjne/MOC_INW_JASNYBRAZ.png",
+                "imageColor": "../src/assets/roleta-standard/mocowania/wybierz-kolor/jasnybraz.png"
+              },
+              { 
+                "name": "Kremowy", 
+                "imageLink": "../src/assets/roleta-standard/mocowania/inwazyjne/MOC_INW_KREMOWY.png",
+                "imageColor": "../src/assets/roleta-standard/mocowania/wybierz-kolor/kremowy.png"
+              },
+              { 
+                "name": "Szary", 
+                "imageLink": "../src/assets/roleta-standard/mocowania/inwazyjne/MOC_INW_SZARY.png",
+                "imageColor": "../src/assets/roleta-standard/mocowania/wybierz-kolor/szary.png"
+              }
+            ],
+            "nonInvasive": [
+              { 
+                "name": "Białe", 
+                "imageLink": "../src/assets/roleta-standard/mocowania/bezinwazyjne/MOC_BEZINW_BIALY.png",
+                "imageColor": "../src/assets/roleta-standard/mocowania/wybierz-kolor/bialy.png"
+              },
+              { 
+                "name": "Czarne", 
+                "imageLink": "../src/assets/roleta-standard/mocowania/bezinwazyjne/MOC_BEZINW_CZARNY.png",
+                "imageColor": "../src/assets/roleta-standard/mocowania/wybierz-kolor/czarny.png"
+              },
+              { 
+                "name": "Brązowy", 
+                "imageLink": "../src/assets/roleta-standard/mocowania/bezinwazyjne/MOC_BEZINW_BRAZOWY.png",
+                "imageColor": "../src/assets/roleta-standard/mocowania/wybierz-kolor/braz.png"
+              },
+              { 
+                "name": "Jasny Brąz", 
+                "imageLink": "../src/assets/roleta-standard/mocowania/bezinwazyjne/MOC_BEZINW_JASNYBRAZ.png",
+                "imageColor": "../src/assets/roleta-standard/mocowania/wybierz-kolor/jasnybraz.png"
+              },
+              { 
+                "name": "Szary", 
+                "imageLink": "../src/assets/roleta-standard/mocowania/bezinwazyjne/MOC_BEZINW_SZARY.png",
+                "imageColor": "../src/assets/roleta-standard/mocowania/wybierz-kolor/szary.png"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "2",
+        "type": "Standard termo",
+        "typeImage": "../src/assets/roleta-standard-termo/typeImage-termo.png",
+        "typeDescription": "Jednolita, gładka struktura tkaniny. Powłoka odbijająca promienie słoneczne, która jednocześnie zapewnia lepszą izolację termiczną wnętrza. 24 kolory do wyboru.100% poliester.",
+        "options": {
+          "colors": [
+            {
+              "name": "Kość Słoniowa",
+              "imageLink": "../src/assets/roleta-standard-termo/okno/100_OST_INW.jpg",
+              "imageLinkSecond": "../src/assets/roleta-standard-termo/okno/bezinw/100_OST_BEZINW.jpg",
+              "imageLinkHover": "../src/assets/roleta-standard-termo/tkanina/100_RST.jpg"
+            },
+            {
+              "name": "Jasny Beż",
+              "imageLink": "../src/assets/roleta-standard-termo/okno/101_OST_INW.jpg",
+              "imageLinkSecond": "../src/assets/roleta-standard-termo/okno/bezinw/101_OST_BEZINW.jpg",
+              "imageLinkHover": "../src/assets/roleta-standard-termo/tkanina/101_RST.jpg"
+            },
+            {
+              "name": "Beżowy",
+              "imageLink": "../src/assets/roleta-standard-termo/okno/102_OST_INW.jpg",
+              "imageLinkSecond": "../src/assets/roleta-standard-termo/okno/bezinw/102_OST_BEZINW.jpg",
+              "imageLinkHover": "../src/assets/roleta-standard-termo/tkanina/102_RST.jpg"
+            },
+            {
+              "name": "Oliwkowy",
+              "imageLink": "../src/assets/roleta-standard-termo/okno/103_OST_INW.jpg",
+              "imageLinkSecond": "../src/assets/roleta-standard-termo/okno/bezinw/103_OST_BEZINW.jpg",
+              "imageLinkHover": "../src/assets/roleta-standard-termo/tkanina/103_RST.jpg"
+            },
+            {
+              "name": "Śliwkowy",
+              "imageLink": "../src/assets/roleta-standard-termo/okno/104_OST_INW.jpg",
+              "imageLinkSecond": "../src/assets/roleta-standard-termo/okno/bezinw/104_OST_BEZINW.jpg",
+              "imageLinkHover": "../src/assets/roleta-standard-termo/tkanina/104_RST.jpg"
+            },    
+            {
+              "name": "Słomkowy",
+              "imageLink": "../src/assets/roleta-standard-termo/okno/105_OST_INW.jpg",
+              "imageLinkSecond": "../src/assets/roleta-standard-termo/okno/bezinw/105_OST_BEZINW.jpg",
+              "imageLinkHover": "../src/assets/roleta-standard-termo/tkanina/105_RST.jpg"
+            },
+            {
+              "name": "Orzechowy",
+              "imageLink": "../src/assets/roleta-standard-termo/okno/106_OST_INW.jpg",
+              "imageLinkSecond": "../src/assets/roleta-standard-termo/okno/bezinw/106_OST_BEZINW.jpg",
+              "imageLinkHover": "../src/assets/roleta-standard-termo/tkanina/106_RST.jpg"
+            },
+            {
+              "name": "Brzoskwiniowy",
+              "imageLink": "../src/assets/roleta-standard-termo/okno/107_OST_INW.jpg",
+              "imageLinkSecond": "../src/assets/roleta-standard-termo/okno/bezinw/107_OST_BEZINW.jpg",
+              "imageLinkHover": "../src/assets/roleta-standard-termo/tkanina/107_RST.jpg"
+            },
+            {
+              "name": "Pomarańczowy",
+              "imageLink": "../src/assets/roleta-standard-termo/okno/108_OST_INW.jpg",
+              "imageLinkSecond": "../src/assets/roleta-standard-termo/okno/bezinw/108_OST_BEZINW.jpg",
+              "imageLinkHover": "../src/assets/roleta-standard-termo/tkanina/108_RST.jpg"
+            },
+            {
+              "name": "Kasztanowy",
+              "imageLink": "../src/assets/roleta-standard-termo/okno/109_OST_INW.jpg",
+              "imageLinkSecond": "../src/assets/roleta-standard-termo/okno/bezinw/109_OST_BEZINW.jpg",
+              "imageLinkHover": "../src/assets/roleta-standard-termo/tkanina/109_RST.jpg"
+            },
+            {
+              "name": "Blady Fiolet",
+              "imageLink": "../src/assets/roleta-standard-termo/okno/110_OST_INW.jpg",
+              "imageLinkSecond": "../src/assets/roleta-standard-termo/okno/bezinw/110_OST_BEZINW.jpg",
+              "imageLinkHover": "../src/assets/roleta-standard-termo/tkanina/110_RST.jpg"
+            },
+            {
+              "name": "Jasnyszary",
+              "imageLink": "../src/assets/roleta-standard-termo/okno/111_OST_INW.jpg",
+              "imageLinkSecond": "../src/assets/roleta-standard-termo/okno/bezinw/111_OST_BEZINW.jpg",
+              "imageLinkHover": "../src/assets/roleta-standard-termo/tkanina/111_RST.jpg"
+            },
+            {
+              "name": "Ciemnoszary",
+              "imageLink": "../src/assets/roleta-standard-termo/okno/112_OST_INW.jpg",
+              "imageLinkSecond": "../src/assets/roleta-standard-termo/okno/bezinw/112_OST_BEZINW.jpg",
+              "imageLinkHover": "../src/assets/roleta-standard-termo/tkanina/112_RST.jpg"
+            },
+            {
+              "name": "Czarny",
+              "imageLink": "../src/assets/roleta-standard-termo/okno/113_OST_INW.jpg",
+              "imageLinkSecond": "../src/assets/roleta-standard-termo/okno/bezinw/113_OST_BEZINW.jpg",
+              "imageLinkHover": "../src/assets/roleta-standard-termo/tkanina/113_RST.jpg"
+            },
+            {
+              "name": "Ziemisty",
+              "imageLink": "../src/assets/roleta-standard-termo/okno/114_OST_INW.jpg",
+              "imageLinkSecond": "../src/assets/roleta-standard-termo/okno/bezinw/114_OST_BEZINW.jpg",
+              "imageLinkHover": "../src/assets/roleta-standard-termo/tkanina/114_RST.jpg"
+            },
+            {
+              "name": "Turkusowy",
+              "imageLink": "../src/assets/roleta-standard-termo/okno/115_OST_INW.jpg",
+              "imageLinkSecond": "../src/assets/roleta-standard-termo/okno/bezinw/115_OST_BEZINW.jpg",
+              "imageLinkHover": "../src/assets/roleta-standard-termo/tkanina/115_RST.jpg"
+            },
+            {
+              "name": "Kremowy",
+              "imageLink": "../src/assets/roleta-standard-termo/okno/116_OST_INW.jpg",
+              "imageLinkSecond": "../src/assets/roleta-standard-termo/okno/bezinw/116_OST_BEZINW.jpg",
+              "imageLinkHover": "../src/assets/roleta-standard-termo/tkanina/116_RST.jpg"
+            },
+            {
+              "name": "Burgundowy",
+              "imageLink": "../src/assets/roleta-standard-termo/okno/117_OST_INW.jpg",
+              "imageLinkSecond": "../src/assets/roleta-standard-termo/okno/bezinw/117_OST_BEZINW.jpg",
+              "imageLinkHover": "../src/assets/roleta-standard-termo/tkanina/117_RST.jpg"
+            },
+            {
+              "name": "Fioletowy",
+              "imageLink": "../src/assets/roleta-standard-termo/okno/118_OST_INW.jpg",
+              "imageLinkSecond": "../src/assets/roleta-standard-termo/okno/bezinw/118_OST_BEZINW.jpg",
+              "imageLinkHover": "../src/assets/roleta-standard-termo/tkanina/118_RST.jpg"
+            },
+            {
+              "name": "Ciemny Granat",
+              "imageLink": "../src/assets/roleta-standard-termo/okno/119_OST_INW.jpg",
+              "imageLinkSecond": "../src/assets/roleta-standard-termo/okno/bezinw/119_OST_BEZINW.jpg",
+              "imageLinkHover": "../src/assets/roleta-standard-termo/tkanina/119_RST.jpg"
+            },
+            {
+              "name": "Bladoróżowy",
+              "imageLink": "../src/assets/roleta-standard-termo/okno/120_OST_INW.jpg",
+              "imageLinkSecond": "../src/assets/roleta-standard-termo/okno/bezinw/120_OST_BEZINW.jpg",
+              "imageLinkHover": "../src/assets/roleta-standard-termo/tkanina/120_RST.jpg"
+            },
+            {
+              "name": "Limonkowy",
+              "imageLink": "../src/assets/roleta-standard-termo/okno/121_OST_INW.jpg",
+              "imageLinkSecond": "../src/assets/roleta-standard-termo/okno/bezinw/121_OST_BEZINW.jpg",
+              "imageLinkHover": "../src/assets/roleta-standard-termo/tkanina/121_RST.jpg"
+            },
+            {
+              "name": "Granatowy",
+              "imageLink": "../src/assets/roleta-standard-termo/okno/122_OST_INW.jpg",
+              "imageLinkSecond": "../src/assets/roleta-standard-termo/okno/bezinw/122_OST_BEZINW.jpg",
+              "imageLinkHover": "../src/assets/roleta-standard-termo/tkanina/122_RST.jpg"
+            },
+            {
+              "name": "Ciemnoczerwony",
+              "imageLink": "../src/assets/roleta-standard-termo/okno/123_OST_INW.jpg",
+              "imageLinkSecond": "../src/assets/roleta-standard-termo/okno/bezinw/123_OST_BEZINW.jpg",
+              "imageLinkHover": "../src/assets/roleta-standard-termo/tkanina/123_RST.jpg"
+            },
+            {
+              "name": "Karmazynowy",
+              "imageLink": "../src/assets/roleta-standard-termo/okno/124_OST_INW.jpg",
+              "imageLinkSecond": "../src/assets/roleta-standard-termo/okno/bezinw/124_OST_BEZINW.jpg",
+              "imageLinkHover": "../src/assets/roleta-standard-termo/tkanina/124_RST.jpg"
+            },
+            {
+              "name": "Malinowy",
+              "imageLink": "../src/assets/roleta-standard-termo/okno/125_OST_INW.jpg",
+              "imageLinkSecond": "../src/assets/roleta-standard-termo/okno/bezinw/125_OST_BEZINW.jpg",
+              "imageLinkHover": "../src/assets/roleta-standard-termo/tkanina/125_RST.jpg"
+            },
+            {
+              "name": "Niebieski",
+              "imageLink": "../src/assets/roleta-standard-termo/okno/126_OST_INW.jpg",
+              "imageLinkSecond": "../src/assets/roleta-standard-termo/okno/bezinw/126_OST_BEZINW.jpg",
+              "imageLinkHover": "../src/assets/roleta-standard-termo/tkanina/126_RST.jpg"
+            },
+            {
+              "name": "Ciemny Brąz",
+              "imageLink": "../src/assets/roleta-standard-termo/okno/128_OST_INW.jpg",
+              "imageLinkSecond": "../src/assets/roleta-standard-termo/okno/bezinw/128_OST_BEZINW.jpg",
+              "imageLinkHover": "../src/assets/roleta-standard-termo/tkanina/128_RST.jpg"
+            },
+            {
+              "name": "Szary",
+              "imageLink": "../src/assets/roleta-standard-termo/okno/129_OST_INW.jpg",
+              "imageLinkSecond": "../src/assets/roleta-standard-termo/okno/bezinw/129_OST_BEZINW.jpg",
+              "imageLinkHover": "../src/assets/roleta-standard-termo/tkanina/129_RST.jpg"
+            },
+            {
+              "name": "Szaroniebieski",
+              "imageLink": "../src/assets/roleta-standard-termo/okno/130_OST_INW.jpg",
+              "imageLinkSecond": "../src/assets/roleta-standard-termo/okno/bezinw/130_OST_BEZINW.jpg",
+              "imageLinkHover": "../src/assets/roleta-standard-termo/tkanina/130_RST.jpg"
+            },
+            {
+              "name": "Żółty Pastelowy",
+              "imageLink": "../src/assets/roleta-standard-termo/okno/131_OST_INW.jpg",
+              "imageLinkSecond": "../src/assets/roleta-standard-termo/okno/bezinw/131_OST_BEZINW.jpg",
+              "imageLinkHover": "../src/assets/roleta-standard-termo/tkanina/131_RST.jpg"
+            },
+            {
+              "name": "Popielaty",
+              "imageLink": "../src/assets/roleta-standard-termo/okno/132_OST_INW.jpg",
+              "imageLinkSecond": "../src/assets/roleta-standard-termo/okno/bezinw/132_OST_BEZINW.jpg",
+              "imageLinkHover": "../src/assets/roleta-standard-termo/tkanina/132_RST.jpg"
+            },
+            {
+              "name": "Jasna Szarość",
+              "imageLink": "../src/assets/roleta-standard-termo/okno/134_OST_INW.jpg",
+              "imageLinkSecond": "../src/assets/roleta-standard-termo/okno/bezinw/134_OST_BEZINW.jpg",
+              "imageLinkHover": "../src/assets/roleta-standard-termo/tkanina/134_RST.jpg"
+            },
+            {
+              "name": "Grafitowy",
+              "imageLink": "../src/assets/roleta-standard-termo/okno/135_OST_INW.jpg",
+              "imageLinkSecond": "../src/assets/roleta-standard-termo/okno/bezinw/135_OST_BEZINW.jpg",
+              "imageLinkHover": "../src/assets/roleta-standard-termo/tkanina/135_RST.jpg"
+            },
+            {
+              "name": "Kobaltowy",
+              "imageLink": "../src/assets/roleta-standard-termo/okno/136_OST_INW.jpg",
+              "imageLinkSecond": "../src/assets/roleta-standard-termo/okno/bezinw/136_OST_BEZINW.jpg",
+              "imageLinkHover": "../src/assets/roleta-standard-termo/tkanina/136_RST.jpg"
+            },
+            {
+              "name": "Czarny Mat",
+              "imageLink": "../src/assets/roleta-standard-termo/okno/137_OST_INW.jpg",
+              "imageLinkSecond": "../src/assets/roleta-standard-termo/okno/bezinw/137_OST_BEZINW.jpg",
+              "imageLinkHover": "../src/assets/roleta-standard-termo/tkanina/137_RST.jpg"
+            }
+          ],  
+          "mounting": {
+            "invasive": true,
+            "nonInvasive": true
+          },
+          "listwyColors": [
+            {
+                "name": "Antracyt",
+                "imageLinkInvasive": "../src/assets/roleta-standard/listwy/inwazyjne/PR_INW_ANTRACYT.png",
+                "imageLinkNonInvasive": "../src/assets/roleta-standard/listwy/bezinwazyjne/PR_BEZINW_ANTRACYT.png",
+                "imageColor": "../src/assets/mocowania/profil_antracyt.png",
+                "price": 0
+            },
+            {
+                "name": "Beżowy",
+                "imageLinkInvasive": "../src/assets/roleta-standard/listwy/inwazyjne/PR_INW_BEZOWY.png",
+                "imageLinkNonInvasive": "../src/assets/roleta-standard/listwy/bezinwazyjne/PR_BEZINW_BEZOWY.png",
+                "imageColor": "../src/assets/mocowania/profil_bez.png",
+                "price": 0
+            },            
+            {
+                "name": "Biały okleina",
+                "imageLinkInvasive": "../src/assets/roleta-standard/listwy/inwazyjne/PR_INW_BIALY_OKLEINA.png",
+                "imageLinkNonInvasive": "../src/assets/roleta-standard/listwy/bezinwazyjne/PR_BEZINW_BIALY_OKLEINA.png",
+                "imageColor": "../src/assets/mocowania/profil_bialy_okleina_10zl.png",
+                "price": 10
+            },
+            {
+              "name": "Białe",
+              "imageLinkInvasive": "../src/assets/roleta-standard/listwy/inwazyjne/PR_INW_BIALY.png",
+              "imageLinkNonInvasive": "../src/assets/roleta-standard/listwy/bezinwazyjne/PR_BEZINW_BIALY.png",
+              "imageColor": "../src/assets/mocowania/profil_bialy.png",
+              "price": 0
+            },
+            {
+                "name": "Brązowy",
+                "imageLinkInvasive": "../src/assets/roleta-standard/listwy/inwazyjne/PR_INW_BRAZOWY.png",
+                "imageLinkNonInvasive": "../src/assets/roleta-standard/listwy/bezinwazyjne/PR_BEZINW_BRAZOWY.png",
+                "imageColor": "../src/assets/mocowania/profil_ciemny_braz.png",
+                "price": 0
+            },
+            {
+              "name": "Czarny mat",
+              "imageLinkInvasive": "../src/assets/roleta-standard/listwy/inwazyjne/PR_INW_CZARNY_MAT.png",
+              "imageLinkNonInvasive": "../src/assets/roleta-standard/listwy/bezinwazyjne/PR_BEZINW_CZARNY_MAT.png",
+              "imageColor": "../src/assets/mocowania/profil_czarny_mat_10zl.png",
+              "price": 10
+            },
+            {
+                "name": "Dąb bagienny",
+                "imageLinkInvasive": "../src/assets/roleta-standard/listwy/inwazyjne/PR_INW_DAB_BAGIENNY_OKLEINA.png",
+                "imageLinkNonInvasive": "../src/assets/roleta-standard/listwy/bezinwazyjne/PR_BEZINW_DAB_BAGIENNY_OKLEINA.png",
+                "imageColor": "../src/assets/mocowania/profil_dab_bagienny_10zl.png",
+                "price": 10
+            },
+            {
+                "name": "Mahoń",
+                "imageLinkInvasive": "../src/assets/roleta-standard/listwy/inwazyjne/PR_INW_MAHON.png",
+                "imageLinkNonInvasive": "../src/assets/roleta-standard/listwy/bezinwazyjne/PR_BEZINW_MAHON.png",
+                "imageColor": "../src/assets/mocowania/profil_mahon_10zl.png",
+                "price": 10
+            },
+            {
+                "name": "Orzech",
+                "imageLinkInvasive": "../src/assets/roleta-standard/listwy/inwazyjne/PR_INW_ORZECH_OKLEINA.png",
+                "imageLinkNonInvasive": "../src/assets/roleta-standard/listwy/bezinwazyjne/PR_BEZINW_ORZECH_OKLEINA.png",
+                "imageColor": "../src/assets/mocowania/profil_orzech_10zl.png",
+                "price": 10
+            },
+            {
+                "name": "Sosna",
+                "imageLinkInvasive": "../src/assets/roleta-standard/listwy/inwazyjne/PR_INW_SOSNA_OKLEINA.png",
+                "imageLinkNonInvasive": "../src/assets/roleta-standard/listwy/bezinwazyjne/PR_BEZINW_SOSNA_OKLEINA.png",
+                "imageColor": "../src/assets/mocowania/profil_sosna_10zl.png",
+                "price": 10
+            },
+            {
+                "name": "Srebrny",
+                "imageLinkInvasive": "../src/assets/roleta-standard/listwy/inwazyjne/PR_INW_SREBRNY_ANODA.png",
+                "imageLinkNonInvasive": "../src/assets/roleta-standard/listwy/bezinwazyjne/PR_BEZINW_SREBRNY_ANODA.png",
+                "imageColor": "../src/assets/mocowania/profil_srebrny.png",
+                "price": 0
+            },            
+            {
+                "name": "Winchester okleina",
+                "imageLinkInvasive": "../src/assets/roleta-standard/listwy/inwazyjne/PR_INW_WINCHESTER_OKLEINA.png",
+                "imageLinkNonInvasive": "../src/assets/roleta-standard/listwy/bezinwazyjne/PR_BEZINW_WINCHESTER_OKLEINA.png",
+                "imageColor": "../src/assets/mocowania/profil_winchester_10zl.png",
+                "price": 10
+            },
+            {
+              "name": "Złoty dąb",
+              "imageLinkInvasive": "../src/assets/roleta-standard/listwy/inwazyjne/PR_INW_ZLOTY_DAB.png",
+              "imageLinkNonInvasive": "../src/assets/roleta-standard/listwy/bezinwazyjne/PR_BEZINW_ZLOTY_DAB.png",
+              "imageColor": "../src/assets/mocowania/profil_zloty_dab_10zl.png",
+              "price": 10
+            }
+          ],
+          "mocowaniaColors": {
+            "invasive": [
+              { 
+                "name": "Białe", 
+                "imageLink": "../src/assets/roleta-standard/mocowania/inwazyjne/MOC_INW_BIALY.png",
+                "imageColor": "../src/assets/roleta-standard/mocowania/wybierz-kolor/bialy.png"
+              },
+              { 
+                "name": "Czarne", 
+                "imageLink": "../src/assets/roleta-standard/mocowania/inwazyjne/MOC_INW_CZARNY.png",
+                "imageColor": "../src/assets/roleta-standard/mocowania/wybierz-kolor/czarny.png"
+              },
+              { 
+                "name": "Beżowy", 
+                "imageLink": "../src/assets/roleta-standard/mocowania/inwazyjne/MOC_INW_BEZOWY.png",
+                "imageColor": "../src/assets/roleta-standard/mocowania/wybierz-kolor/bezowy.png"
+              },
+              { 
+                "name": "Brązowy", 
+                "imageLink": "../src/assets/roleta-standard/mocowania/inwazyjne/MOC_INW_BRAZOWY.png",
+                "imageColor": "../src/assets/roleta-standard/mocowania/wybierz-kolor/braz.png"
+              },
+              { 
+                "name": "Jasny Brąz", 
+                "imageLink": "../src/assets/roleta-standard/mocowania/inwazyjne/MOC_INW_JASNYBRAZ.png",
+                "imageColor": "../src/assets/roleta-standard/mocowania/wybierz-kolor/jasnybraz.png"
+              },
+              { 
+                "name": "Kremowy", 
+                "imageLink": "../src/assets/roleta-standard/mocowania/inwazyjne/MOC_INW_KREMOWY.png",
+                "imageColor": "../src/assets/roleta-standard/mocowania/wybierz-kolor/kremowy.png"
+              },
+              { 
+                "name": "Szary", 
+                "imageLink": "../src/assets/roleta-standard/mocowania/inwazyjne/MOC_INW_SZARY.png",
+                "imageColor": "../src/assets/roleta-standard/mocowania/wybierz-kolor/szary.png"
+              }
+            ],
+            "nonInvasive": [
+              { 
+                "name": "Białe", 
+                "imageLink": "../src/assets/roleta-standard/mocowania/bezinwazyjne/MOC_BEZINW_BIALY.png",
+                "imageColor": "../src/assets/roleta-standard/mocowania/wybierz-kolor/bialy.png"
+              },
+              { 
+                "name": "Czarne", 
+                "imageLink": "../src/assets/roleta-standard/mocowania/bezinwazyjne/MOC_BEZINW_CZARNY.png",
+                "imageColor": "../src/assets/roleta-standard/mocowania/wybierz-kolor/czarny.png"
+              },
+              { 
+                "name": "Brązowy", 
+                "imageLink": "../src/assets/roleta-standard/mocowania/bezinwazyjne/MOC_BEZINW_BRAZOWY.png",
+                "imageColor": "../src/assets/roleta-standard/mocowania/wybierz-kolor/braz.png"
+              },
+              { 
+                "name": "Jasny Brąz", 
+                "imageLink": "../src/assets/roleta-standard/mocowania/bezinwazyjne/MOC_BEZINW_JASNYBRAZ.png",
+                "imageColor": "../src/assets/roleta-standard/mocowania/wybierz-kolor/jasnybraz.png"
+              },
+              { 
+                "name": "Szary", 
+                "imageLink": "../src/assets/roleta-standard/mocowania/bezinwazyjne/MOC_BEZINW_SZARY.png",
+                "imageColor": "../src/assets/roleta-standard/mocowania/wybierz-kolor/szary.png"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "3",
+        "type": "Melange",
+        "typeImage": "../src/assets/melange/melange.png",
+        "typeDescription": "Splot typu „melanż”, widoczna dwukolorowa struktura. Wysoka gramatura 7 kolorów do wyboru. 100% poliester.",
+        "options": {
+          "colors": [
+            {
+              "name": "Bursztyn",
+              "imageLink": "../src/assets/melange/okno/737_OM_INW.jpg",
+              "imageLinkSecond": "../src/assets/melange/okno/bezinw/737_OM_BEZINW.jpg",
+              "imageLinkHover": "../src/assets/melange/tkanina/RM_737.jpg"
+            },
+            {
+              "name": "Piaskowiec",
+              "imageLink": "../src/assets/melange/okno/734_OM_INW.jpg",
+              "imageLinkSecond": "../src/assets/melange/okno/bezinw/734_OM_BEZINW.jpg",
+              "imageLinkHover": "../src/assets/melange/tkanina/RM_734.jpg"
+            },
+            {
+              "name": "Krzemień",
+              "imageLink": "../src/assets/melange/okno/739_OM_INW.jpg",
+              "imageLinkSecond": "../src/assets/melange/okno/bezinw/739_OM_BEZINW.jpg",
+              "imageLinkHover": "../src/assets/melange/tkanina/RM_739.jpg"
+            },
+            {
+              "name": "Larvikit",
+              "imageLink": "../src/assets/melange/okno/738_OM_INW.jpg",
+              "imageLinkSecond": "../src/assets/melange/okno/bezinw/738_OM_BEZINW.jpg",
+              "imageLinkHover": "../src/assets/melange/tkanina/RM_738.jpg"
+            },
+            {
+              "name": "Cyjanit",
+              "imageLink": "../src/assets/melange/okno/744_OM_INW.jpg",
+              "imageLinkSecond": "../src/assets/melange/okno/bezinw/744_OM_BEZINW.jpg",
+              "imageLinkHover": "../src/assets/melange/tkanina/RM_744.jpg"
+            },
+            {
+              "name": "Howlit",
+              "imageLink": "../src/assets/melange/okno/732_OM_INW.jpg",
+              "imageLinkSecond": "../src/assets/melange/okno/bezinw/732_OM_BEZINW.jpg",
+              "imageLinkHover": "../src/assets/melange/tkanina/RM_732.jpg"
+            },
+            {
+              "name": "Angelit",
+              "imageLink": "../src/assets/melange/okno/743_OM_INW.jpg",
+              "imageLinkSecond": "../src/assets/melange/okno/bezinw/743_OM_BEZINW.jpg",
+              "imageLinkHover": "../src/assets/melange/tkanina/RM_743.jpg"
+            },
+            {
+              "name": "Denim",
+              "imageLink": "../src/assets/melange/okno/733_OM_INW.jpg",
+              "imageLinkSecond": "../src/assets/melange/okno/bezinw/733_OM_BEZINW.jpg",
+              "imageLinkHover": "../src/assets/melange/tkanina/RM_733.jpg"
+            }
+          ],  
+          "mounting": {
+            "invasive": true,
+            "nonInvasive": true
+          },
+          "listwyColors": [
+            {
+                "name": "Antracyt",
+                "imageLinkInvasive": "../src/assets/roleta-standard/listwy/inwazyjne/PR_INW_ANTRACYT.png",
+                "imageLinkNonInvasive": "../src/assets/roleta-standard/listwy/bezinwazyjne/PR_BEZINW_ANTRACYT.png",
+                "imageColor": "../src/assets/mocowania/profil_antracyt.png",
+                "price": 0
+            },
+            {
+                "name": "Beżowy",
+                "imageLinkInvasive": "../src/assets/roleta-standard/listwy/inwazyjne/PR_INW_BEZOWY.png",
+                "imageLinkNonInvasive": "../src/assets/roleta-standard/listwy/bezinwazyjne/PR_BEZINW_BEZOWY.png",
+                "imageColor": "../src/assets/mocowania/profil_bez.png",
+                "price": 0
+            },            
+            {
+                "name": "Biały okleina",
+                "imageLinkInvasive": "../src/assets/roleta-standard/listwy/inwazyjne/PR_INW_BIALY_OKLEINA.png",
+                "imageLinkNonInvasive": "../src/assets/roleta-standard/listwy/bezinwazyjne/PR_BEZINW_BIALY_OKLEINA.png",
+                "imageColor": "../src/assets/mocowania/profil_bialy_okleina_10zl.png",
+                "price": 10
+            },
+            {
+              "name": "Białe",
+              "imageLinkInvasive": "../src/assets/roleta-standard/listwy/inwazyjne/PR_INW_BIALY.png",
+              "imageLinkNonInvasive": "../src/assets/roleta-standard/listwy/bezinwazyjne/PR_BEZINW_BIALY.png",
+              "imageColor": "../src/assets/mocowania/profil_bialy.png",
+              "price": 0
+            },
+            {
+                "name": "Brązowy",
+                "imageLinkInvasive": "../src/assets/roleta-standard/listwy/inwazyjne/PR_INW_BRAZOWY.png",
+                "imageLinkNonInvasive": "../src/assets/roleta-standard/listwy/bezinwazyjne/PR_BEZINW_BRAZOWY.png",
+                "imageColor": "../src/assets/mocowania/profil_ciemny_braz.png",
+                "price": 0
+            },
+            {
+              "name": "Czarny mat",
+              "imageLinkInvasive": "../src/assets/roleta-standard/listwy/inwazyjne/PR_INW_CZARNY_MAT.png",
+              "imageLinkNonInvasive": "../src/assets/roleta-standard/listwy/bezinwazyjne/PR_BEZINW_CZARNY_MAT.png",
+              "imageColor": "../src/assets/mocowania/profil_czarny_mat_10zl.png",
+              "price": 10
+            },
+            {
+                "name": "Dąb bagienny",
+                "imageLinkInvasive": "../src/assets/roleta-standard/listwy/inwazyjne/PR_INW_DAB_BAGIENNY_OKLEINA.png",
+                "imageLinkNonInvasive": "../src/assets/roleta-standard/listwy/bezinwazyjne/PR_BEZINW_DAB_BAGIENNY_OKLEINA.png",
+                "imageColor": "../src/assets/mocowania/profil_dab_bagienny_10zl.png",
+                "price": 10
+            },
+            {
+                "name": "Mahoń",
+                "imageLinkInvasive": "../src/assets/roleta-standard/listwy/inwazyjne/PR_INW_MAHON.png",
+                "imageLinkNonInvasive": "../src/assets/roleta-standard/listwy/bezinwazyjne/PR_BEZINW_MAHON.png",
+                "imageColor": "../src/assets/mocowania/profil_mahon_10zl.png",
+                "price": 10
+            },
+            {
+                "name": "Orzech",
+                "imageLinkInvasive": "../src/assets/roleta-standard/listwy/inwazyjne/PR_INW_ORZECH_OKLEINA.png",
+                "imageLinkNonInvasive": "../src/assets/roleta-standard/listwy/bezinwazyjne/PR_BEZINW_ORZECH_OKLEINA.png",
+                "imageColor": "../src/assets/mocowania/profil_orzech_10zl.png",
+                "price": 10
+            },
+            {
+                "name": "Sosna",
+                "imageLinkInvasive": "../src/assets/roleta-standard/listwy/inwazyjne/PR_INW_SOSNA_OKLEINA.png",
+                "imageLinkNonInvasive": "../src/assets/roleta-standard/listwy/bezinwazyjne/PR_BEZINW_SOSNA_OKLEINA.png",
+                "imageColor": "../src/assets/mocowania/profil_sosna_10zl.png",
+                "price": 10
+            },
+            {
+                "name": "Srebrny",
+                "imageLinkInvasive": "../src/assets/roleta-standard/listwy/inwazyjne/PR_INW_SREBRNY_ANODA.png",
+                "imageLinkNonInvasive": "../src/assets/roleta-standard/listwy/bezinwazyjne/PR_BEZINW_SREBRNY_ANODA.png",
+                "imageColor": "../src/assets/mocowania/profil_srebrny.png",
+                "price": 0
+            },            
+            {
+                "name": "Winchester okleina",
+                "imageLinkInvasive": "../src/assets/roleta-standard/listwy/inwazyjne/PR_INW_WINCHESTER_OKLEINA.png",
+                "imageLinkNonInvasive": "../src/assets/roleta-standard/listwy/bezinwazyjne/PR_BEZINW_WINCHESTER_OKLEINA.png",
+                "imageColor": "../src/assets/mocowania/profil_winchester_10zl.png",
+                "price": 10
+            },
+            {
+              "name": "Złoty dąb",
+              "imageLinkInvasive": "../src/assets/roleta-standard/listwy/inwazyjne/PR_INW_ZLOTY_DAB.png",
+              "imageLinkNonInvasive": "../src/assets/roleta-standard/listwy/bezinwazyjne/PR_BEZINW_ZLOTY_DAB.png",
+              "imageColor": "../src/assets/mocowania/profil_zloty_dab_10zl.png",
+              "price": 10
+            }
+          ],
+          "mocowaniaColors": {
+            "invasive": [
+              { 
+                "name": "Białe", 
+                "imageLink": "../src/assets/roleta-standard/mocowania/inwazyjne/MOC_INW_BIALY.png",
+                "imageColor": "../src/assets/roleta-standard/mocowania/wybierz-kolor/bialy.png"
+              },
+              { 
+                "name": "Czarne", 
+                "imageLink": "../src/assets/roleta-standard/mocowania/inwazyjne/MOC_INW_CZARNY.png",
+                "imageColor": "../src/assets/roleta-standard/mocowania/wybierz-kolor/czarny.png"
+              },
+              { 
+                "name": "Beżowy", 
+                "imageLink": "../src/assets/roleta-standard/mocowania/inwazyjne/MOC_INW_BEZOWY.png",
+                "imageColor": "../src/assets/roleta-standard/mocowania/wybierz-kolor/bezowy.png"
+              },
+              { 
+                "name": "Brązowy", 
+                "imageLink": "../src/assets/roleta-standard/mocowania/inwazyjne/MOC_INW_BRAZOWY.png",
+                "imageColor": "../src/assets/roleta-standard/mocowania/wybierz-kolor/braz.png"
+              },
+              { 
+                "name": "Jasny Brąz", 
+                "imageLink": "../src/assets/roleta-standard/mocowania/inwazyjne/MOC_INW_JASNYBRAZ.png",
+                "imageColor": "../src/assets/roleta-standard/mocowania/wybierz-kolor/jasnybraz.png"
+              },
+              { 
+                "name": "Kremowy", 
+                "imageLink": "../src/assets/roleta-standard/mocowania/inwazyjne/MOC_INW_KREMOWY.png",
+                "imageColor": "../src/assets/roleta-standard/mocowania/wybierz-kolor/kremowy.png"
+              },
+              { 
+                "name": "Szary", 
+                "imageLink": "../src/assets/roleta-standard/mocowania/inwazyjne/MOC_INW_SZARY.png",
+                "imageColor": "../src/assets/roleta-standard/mocowania/wybierz-kolor/szary.png"
+              }
+            ],
+            "nonInvasive": [
+              { 
+                "name": "Białe", 
+                "imageLink": "../src/assets/roleta-standard/mocowania/bezinwazyjne/MOC_BEZINW_BIALY.png",
+                "imageColor": "../src/assets/roleta-standard/mocowania/wybierz-kolor/bialy.png"
+              },
+              { 
+                "name": "Czarne", 
+                "imageLink": "../src/assets/roleta-standard/mocowania/bezinwazyjne/MOC_BEZINW_CZARNY.png",
+                "imageColor": "../src/assets/roleta-standard/mocowania/wybierz-kolor/czarny.png"
+              },
+              { 
+                "name": "Brązowy", 
+                "imageLink": "../src/assets/roleta-standard/mocowania/bezinwazyjne/MOC_BEZINW_BRAZOWY.png",
+                "imageColor": "../src/assets/roleta-standard/mocowania/wybierz-kolor/braz.png"
+              },
+              { 
+                "name": "Jasny Brąz", 
+                "imageLink": "../src/assets/roleta-standard/mocowania/bezinwazyjne/MOC_BEZINW_JASNYBRAZ.png",
+                "imageColor": "../src/assets/roleta-standard/mocowania/wybierz-kolor/jasnybraz.png"
+              },
+              { 
+                "name": "Szary", 
+                "imageLink": "../src/assets/roleta-standard/mocowania/bezinwazyjne/MOC_BEZINW_SZARY.png",
+                "imageColor": "../src/assets/roleta-standard/mocowania/wybierz-kolor/szary.png"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "4",
+        "type": "Melange termo",
+        "typeImage": "../src/assets/melange-termo/melange-termo.png",
+        "typeDescription": "Splot typu „melanż”, widoczna dwukolorowa struktura. Powłoka odbijająca promienie słoneczne, która jednocześnie zapewnia lepszą izolację termiczną wnętrza. Wysoka gramatura 7 kolorów do wyboru. 100% poliester.",
+        "options": {
+          "colors": [
+            {
+              "name": "Bursztyn",
+              "imageLink": "../src/assets/melange-termo/okno/737_OMT_INW.jpg",
+              "imageLinkSecond": "../src/assets/melange-termo/okno/bezinw/737_OMT_BEZINW.jpg",
+              "imageLinkHover": "../src/assets/melange-termo/tkanina/RMT_737.jpg"
+            },
+            {
+              "name": "Piaskowiec",
+              "imageLink": "../src/assets/melange-termo/okno/734_OMT_INW.jpg",
+              "imageLinkSecond": "../src/assets/melange-termo/okno/bezinw/734_OMT_BEZINW.jpg",
+              "imageLinkHover": "../src/assets/melange-termo/tkanina/RMT_734.jpg"
+            },
+            {
+              "name": "Krzemień",
+              "imageLink": "../src/assets/melange-termo/okno/739_OMT_INW.jpg",
+              "imageLinkSecond": "../src/assets/melange-termo/okno/bezinw/739_OMT_BEZINW.jpg",
+              "imageLinkHover": "../src/assets/melange-termo/tkanina/RMT_739.jpg"
+            },
+            {
+              "name": "Larvikit",
+              "imageLink": "../src/assets/melange-termo/okno/738_OMT_INW.jpg",
+              "imageLinkSecond": "../src/assets/melange-termo/okno/bezinw/738_OMT_BEZINW.jpg",
+              "imageLinkHover": "../src/assets/melange-termo/tkanina/RMT_738.jpg"
+            },
+            {
+              "name": "Cyjanit",
+              "imageLink": "../src/assets/melange-termo/okno/744_OMT_INW.jpg",
+              "imageLinkSecond": "../src/assets/melange-termo/okno/bezinw/744_OMT_BEZINW.jpg",
+              "imageLinkHover": "../src/assets/melange-termo/tkanina/RMT_744.jpg"
+            },
+            {
+              "name": "Howlit",
+              "imageLink": "../src/assets/melange-termo/okno/732_OMT_INW.jpg",
+              "imageLinkSecond": "../src/assets/melange-termo/okno/bezinw/732_OMT_BEZINW.jpg",
+              "imageLinkHover": "../src/assets/melange-termo/tkanina/RMT_732.jpg"
+            },
+            {
+              "name": "Angelit",
+              "imageLink": "../src/assets/melange-termo/okno/743_OMT_INW.jpg",
+              "imageLinkSecond": "../src/assets/melange-termo/okno/bezinw/743_OMT_BEZINW.jpg",
+              "imageLinkHover": "../src/assets/melange-termo/tkanina/RMT_743.jpg"
+            },
+            {
+              "name": "Denim",
+              "imageLink": "../src/assets/melange-termo/okno/733_OMT_INW.jpg",
+              "imageLinkSecond": "../src/assets/melange-termo/okno/bezinw/733_OMT_BEZINW.jpg",
+              "imageLinkHover": "../src/assets/melange-termo/tkanina/RMT_733.jpg"
             }
           ],  
           "mounting": {
