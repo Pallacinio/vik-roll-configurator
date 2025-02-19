@@ -1,12 +1,11 @@
 import React from "react";
 import { useCart } from "../context/CartContext";
-import { useNavigate } from "react-router-dom";
 import iconDelete from "../assets/icons/delete.png";
 
+import Swal from "sweetalert2";
 
 function Cart() {
-  const { cartItems, removeFromCart, updateQuantity } = useCart();
-  const navigate = useNavigate();
+  const { cartItems, removeFromCart, updateQuantity, clearCart } = useCart();
 
   const calculateTotal = () =>
     cartItems.reduce((total, item) => total + item.price * item.quantity, 0);
@@ -20,8 +19,17 @@ function Cart() {
         body: JSON.stringify({ items: cartItems, total }),
       });
       if (response.ok) {
-        alert("Zamówienie zostało zapisane.");
-        navigate("/order-summary"); 
+        Swal.fire({
+          icon: "success",
+          title: "Zamówienie zostało zapisane.!",
+          confirmButtonText: "OK",
+          customClass: {
+            confirmButton: 'bg-[#544e4a] text-white'
+          }
+        }).then(() => {
+          clearCart(); 
+          window.location.href = '/order-summary';
+        });
       } else {
         alert("Błąd podczas zapisywania zamówienia.");
       }

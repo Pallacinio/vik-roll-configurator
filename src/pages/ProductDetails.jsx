@@ -34,76 +34,9 @@ function ProductDetails() {
   const listwyColors = product?.options?.listwyColors || [];
   const mocowaniaColors = product?.options?.mocowaniaColors?.[mountingType] || [];
 
-  const priceTable = {
-    nonInvasive: {
-      width: [
-        { range: [150, 350], price: 122 },
-        { range: [351, 400], price: 127 },
-        { range: [401, 450], price: 132 },
-        { range: [451, 500], price: 137 },
-        { range: [501, 550], price: 142 },
-        { range: [551, 600], price: 147 },
-        { range: [601, 750], price: 152 },
-        { range: [651, 700], price: 157 },
-        { range: [701, 750], price: 162 },
-        { range: [751, 800], price: 167 },
-        { range: [801, 850], price: 172 },
-        { range: [851, 900], price: 177 },
-        { range: [901, 950], price: 182 },
-        { range: [951, 1000], price: 187 },
-        { range: [1001, 1050], price: 192 },
-        { range: [1051, 1100], price: 197 },
-        { range: [1101, 1150], price: 202 },
-        { range: [1151, 1200], price: 207 },
-      ],
-      height: [
-        { range: [150, 1500], addition: 0 },
-        { range: [1501, 2300], addition: 15 },
-        { range: [2301, 2800], addition: 45 },
-      ],
-    },
-    invasive: {
-      width: [
-        { range: [200, 350], price: 110 },
-        { range: [351, 400], price: 115 },
-        { range: [401, 450], price: 120 },
-        { range: [451, 500], price: 125 },
-        { range: [501, 550], price: 130 },
-        { range: [551, 600], price: 135 },
-        { range: [601, 650], price: 140 },
-        { range: [651, 700], price: 145 },
-        { range: [701, 750], price: 150 },
-        { range: [751, 800], price: 155 },
-        { range: [801, 850], price: 160 },
-        { range: [851, 900], price: 165 },
-        { range: [901, 950], price: 170 },
-        { range: [951, 1000], price: 175 },
-        { range: [1001, 1050], price: 180 },
-        { range: [1051, 1100], price: 185 },
-        { range: [1101, 1150], price: 190 },
-        { range: [1151, 1200], price: 195 },
-        { range: [1201, 1250], price: 245 },
-        { range: [1251, 1300], price: 250 },
-        { range: [1301, 1350], price: 255 },
-        { range: [1351, 1400], price: 260 },
-        { range: [1401, 1450], price: 265 },
-        { range: [1451, 1500], price: 270 },
-        { range: [1501, 1550], price: 275 },
-        { range: [1551, 1600], price: 280 },
-        { range: [1601, 1650], price: 285 },
-        { range: [1651, 1700], price: 290 },
-        { range: [1701, 1750], price: 295 },
-        { range: [1751, 1800], price: 300 },
-        { range: [1801, 1850], price: 305 },
-        { range: [1851, 2000], price: 310 },
-      ],
-      height: [
-        { range: [150, 1500], addition: 0 },
-        { range: [1501, 2300], addition: 15 },
-        { range: [2301, 2800], addition: 45 },
-      ],
-    },
-  };
+  const priceProduct = product?.options?.pricing;
+
+  const priceTable = priceProduct;
 
   useEffect(() => {
     const newConstraints =
@@ -142,11 +75,6 @@ function ProductDetails() {
 
     return widthPrice + heightAddition + listwaPrice;
   };
-
-  console.log("Selected Listwa:", selectedListwa);
-  console.log("Listwa Price:", selectedListwa?.price);
-  console.log("Type of price:", typeof selectedListwa?.price);
-
 
   useEffect(() => {
     if (width && height) {

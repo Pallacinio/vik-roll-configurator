@@ -33,6 +33,26 @@ function OrderSummary() {
       <h2 className="mx-auto w-3/4 text-xl md:text-4xl font-bold mb-8 text-center uppercase">
         Dziękujemy za zakupy!
       </h2>
+      <p className="text-[8px] md:text-sm text-center mb-6">
+            <span className="block">
+              Uwaga!
+            </span>
+            <span className="block">
+              Wysyłka do paczkomatów InPost oraz Allegro One Box jest
+            </span> 
+            <span className="block">
+              niemożliwa ze względu na wielkość paczki.
+            </span> 
+            <span className="block">
+              W przypadku wyboru dostawy do któregoś z tych punktów
+            </span>
+            <span className="block">
+              nasz dział obsługi klienta będzie się z Państwem
+            </span>
+            <span className="block">
+              kontaktował w celu wysłania przesyłki na inny adres.
+            </span>
+      </p>
       <p className="text-xs md:text-lg text-center mb-6">
         <span className="block">
             Aby sfinalizować zamówienie, skorzystaj z przycisku allegro poniżej.

@@ -15,10 +15,30 @@ function ProductList() {
       })
       .then((data) => {
         setProducts(data.products);
-        console.log(data);
       })
       .catch((error) => console.error("Error:", error));
   }, []);
+
+  useEffect(() => {
+    const adjustHeights = () => {
+      const productCards = document.querySelectorAll(".product-card");
+      let maxHeight = 0;
+
+      productCards.forEach((card) => {
+        card.style.height = "auto"; // Resetuj wysokość
+        maxHeight = Math.max(maxHeight, card.clientHeight);
+      });
+
+      productCards.forEach((card) => {
+        card.style.height = `${maxHeight}px`; // Ustaw maksymalną wysokość
+      });
+    };
+
+    adjustHeights();
+    window.addEventListener("resize", adjustHeights);
+    
+    return () => window.removeEventListener("resize", adjustHeights);
+  }, [products]);
 
   return (
     <>
@@ -31,7 +51,7 @@ function ProductList() {
               key={index}
               to={`/products/${index}`}
               state={{ product }}
-              className="h-[250px] w-full lg:w-2/5 lg:h-[350px]  cursor-pointer relative bg-[#eeeeee] border-2 border-[#544e4a] rounded-lg p-2 shadow-md hover:shadow-lg transition-shadow duration-200 flex flex-row gap-2 group"
+              className="product-card w-full lg:w-2/5 cursor-pointer relative bg-[#eeeeee] border-2 border-[#544e4a] rounded-lg p-2 shadow-md hover:shadow-lg transition-shadow duration-200 flex flex-row gap-2 group"
             >
               <div className="w-1/2 h-auto rounded-md">
                 <img src={product.typeImage} alt={`${product.type} image`} className="w-full h-full object-cover" />

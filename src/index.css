@@ -9,3 +9,12 @@
 body {
   color: #544e4a;
 }
+
+.home-background {
+  background-image: url('./assets/background/bg-konfigurator.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 100vh;
+  width: 100%;
+}

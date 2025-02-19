@@ -12,6 +12,8 @@ import Content from "./components/content/Content.jsx";
 import Footer from "./components/footer/Footer.jsx";
 import { CartProvider } from "./context/CartContext"; 
 import Header from "./components/header/Header.jsx";
+import BackButton from "./components/backButton/BackButton.jsx";
+import Home from "./pages/Home.jsx";
 
 function App() {
   return (
@@ -20,6 +22,7 @@ function App() {
       <BrowserRouter>
         <Content>
           <Routes>
+            <Route path="/" element={<Home />} />
             <Route path="/products" element={<ProductList />} />
             <Route path="/products/:productId" element={<ProductColors />} />
             <Route path="/product/details" element={<ProductDetails />} />
@@ -29,6 +32,7 @@ function App() {
             <Route path="/login" element={<Login />} />
           </Routes>
         </Content>
+        <BackButton/>
       </BrowserRouter>
       <Footer/>
     </CartProvider>
