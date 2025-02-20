@@ -6,7 +6,7 @@ function ProductList() {
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
-    fetch("/data/data.json")
+    fetch("/data.json")
       .then((response) => {
         if (!response.ok) {
           throw new Error("Error fetching JSON data");
