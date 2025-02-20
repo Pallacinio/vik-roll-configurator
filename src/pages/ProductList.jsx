@@ -62,7 +62,7 @@ function ProductList() {
               </div>
               <img
                 className="bg-[#777777] absolute right-2 bottom-2 rounded-full flex items-center justify-center text-white text-4xl"
-                srcSet="../src/assets/icons/link-button-icon.png"
+                srcSet="../assets/icons/link-button-icon.png"
                 alt="Strzałka wybierz"
               />
               <div className="triangle-clip-background absolute bottom-0 right-0 bg-[#f6f6f6] w-full p-10 pb-3 pr-2 bg-opacity-90 flex justify-end opacity-0 group-hover:opacity-100 transition-opacity duration-700">
