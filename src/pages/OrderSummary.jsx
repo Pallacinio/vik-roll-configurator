@@ -8,7 +8,7 @@ function OrderSummary() {
   useEffect(() => {
     const fetchOrder = async () => {
       try {
-        const response = await fetch("http://localhost:5000/api/orders");
+        const response = await fetch("https://vik-roll-configurator.onrender.com/api/orders");
         const data = await response.json();
         if (data.length > 0) {
           setOrder(data[0]); 

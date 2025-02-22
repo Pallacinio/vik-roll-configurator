@@ -13,7 +13,7 @@ function Cart() {
   const handleSubmitOrder = async () => {
     const total = calculateTotal();
     try {
-      const response = await fetch("http://localhost:5000/api/orders", {
+      const response = await fetch("https://vik-roll-configurator.onrender.com/api/orders", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ items: cartItems, total }),
