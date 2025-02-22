@@ -52,10 +52,10 @@ function ProductList() {
               state={{ product }}
               className="product-card w-full md:1/2 lg:w-8/12 xl:w-[45%]  cursor-pointer relative bg-[#eeeeee] border-2 border-[#544e4a] rounded-[25px] p-2 shadow-md hover:shadow-lg transition-shadow duration-200 flex flex-col sm:flex-row gap-2 group"
             >
-              <div className="w-full sm:w-1/2 min-h-60 h-auto rounded-[25px] overflow-hidden">
+              <div className="w-full sm:w-1/2 min-h-52 h-auto rounded-[25px] overflow-hidden">
                 <img src={product.typeImage} alt={`${product.type} image`} className="w-full h-full object-cover" />
               </div>
-              <div className="w-full sm:w-1/2 h-auto rounded-[25px] py-6">
+              <div className="w-full sm:w-1/2 h-auto rounded-[25px] px-2 sm:py-6 sm:px-0">
                 <h2 className="text-[#544e4a] text-2xl font-bold mt-2 mb-2">{product.type}</h2>
                 <ul className="text-[#544e4a] list-disc ml-4">
                 {product.typeDescription
