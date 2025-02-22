@@ -1,5 +1,7 @@
 import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
+import iconVr from '../assets/logo/logo.png';
+import iconAllegro from '../assets/logo/allegro.png';
 
 function Home() {
   useEffect(() => {
@@ -17,10 +19,18 @@ function Home() {
       </h2>
       <Link
         to="/products"
-        className="px-8 py-4 text-lg md:text-xl bg-white text-[#544e4a] border-4 border-[#544e4a] rounded-full shadow-lg transition-all duration-300 hover:scale-105"
+        className="px-8 py-4 text-xl md:text-4xl font-bold bg-white text-[#544e4a] border-4 border-[#544e4a] rounded-full shadow-lg transition-all duration-300 hover:scale-105"
       >
         Konfiguruj
       </Link>
+      <div className='absolute bottom-[10%] w-4/5 md:w-3/5 2xl:w-2/5 m-auto flex justify-center items-center py-10'>
+        <div className='flex justify-center'>
+            <img className='w-3/5 md:w-3/5' srcSet={iconVr} alt="ikona VIK-ROLL" />
+        </div>
+        <div className='flex justify-center'>
+            <img className='w-3/5 md:w-3/5' srcSet={iconAllegro} alt="ikona Allegro" />
+        </div>
+    </div>
     </div>
   );
 }

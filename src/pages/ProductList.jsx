@@ -43,22 +43,28 @@ function ProductList() {
   return (
     <>
       <Progressbar/>
-      <div className="p-8">
-        {/* <h1 className="text-3xl font-bold mb-8 text-center">Produkty</h1> */}
-        <div className="w-full flex items-center justify-center gap-10 flex-wrap">
+      <div className="p-8 md:py-8 md:px-0">
+        <div className="w-full flex items-center lg:justify-center xl:justify-between gap-10 flex-wrap">
           {products.map((product, index) => (
             <Link
               key={index}
               to={`/products/${index}`}
               state={{ product }}
-              className="product-card w-full lg:w-2/5 cursor-pointer relative bg-[#eeeeee] border-2 border-[#544e4a] rounded-lg p-2 shadow-md hover:shadow-lg transition-shadow duration-200 flex flex-row gap-2 group"
+              className="product-card w-full md:1/2 lg:w-8/12 xl:w-[45%]  cursor-pointer relative bg-[#eeeeee] border-2 border-[#544e4a] rounded-[25px] p-2 shadow-md hover:shadow-lg transition-shadow duration-200 flex flex-row gap-2 group"
             >
-              <div className="w-1/2 h-auto rounded-md">
+              <div className="w-1/2 h-auto rounded-[25px] overflow-hidden">
                 <img src={product.typeImage} alt={`${product.type} image`} className="w-full h-full object-cover" />
               </div>
-              <div className="w-1/2 h-auto rounded-md">
+              <div className="w-1/2 h-auto rounded-[25px] py-6">
                 <h2 className="text-[#544e4a] text-2xl font-bold mt-2 mb-2">{product.type}</h2>
-                <p className="text-[#544e4a]">{product.typeDescription}</p>
+                <ul className="text-[#544e4a] list-disc ml-4">
+                {product.typeDescription
+                  .split(". ")
+                  .filter(sentence => sentence.trim() !== "") 
+                  .map((sentence, i) => (
+                    <li key={i}>{sentence.trim().replace(/\.$/, "")}</li>
+                  ))}
+                </ul>
               </div>
               <img
                 className="bg-[#777777] absolute right-2 bottom-2 rounded-full flex items-center justify-center text-white text-4xl"

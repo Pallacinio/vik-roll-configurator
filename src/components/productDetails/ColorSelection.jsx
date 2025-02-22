@@ -7,8 +7,8 @@ function ColorSelection({ title, colors, selectedColor, setSelectedColor }) {
             <div
               key={index}
               onClick={() => setSelectedColor(color)}
-              className={`cursor-pointer border p-2 rounded-lg ${
-                selectedColor === color ? "border-[#544e4a] border-2" : "border-gray-300"
+              className={`cursor-pointer border-2 p-2 rounded-[25px] ${
+                selectedColor === color ? "border-[#544e4a] border-2" : "border-[#e9e9e9]"
               }`}
             >
               <img src={color.imageColor} alt={color.name} className="w-16 h-auto m-auto" />
