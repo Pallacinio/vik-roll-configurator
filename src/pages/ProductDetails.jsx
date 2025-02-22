@@ -39,6 +39,10 @@ function ProductDetails() {
   const priceTable = priceProduct;
 
   useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location]); 
+
+  useEffect(() => {
     const newConstraints =
       mountingType === "nonInvasive"
         ? { width: { min: 150, max: 1200 }, height: { min: 150, max: 2800 } }
