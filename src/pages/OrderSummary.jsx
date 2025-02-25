@@ -58,10 +58,7 @@ function OrderSummary() {
             Aby sfinalizować zamówienie, skorzystaj z przycisku allegro poniżej.
         </span>
         <span className="block">
-            Każda sztuka w aukcji odpowiada kwocie 2,5 zł. 
-        </span>
-        <span className="block">
-            Zamów odpowiednią liczbę sztuk, obliczając ją jako iloraz 155 ÷ 2,5:
+            Każda sztuka w aukcji odpowiada kwocie 1 zł. 
         </span>
       </p>
       <h4 className="text-2xl md:text-6xl font-bold mb-6 text-center">

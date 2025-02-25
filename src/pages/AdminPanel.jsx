@@ -85,7 +85,7 @@ function AdminPanel() {
                           <p>💰 <strong>Cena:</strong> {item.price} zł</p>
                           <p>📏 <strong>Szerokość:</strong> {item.width}mm</p>
                           <p>📐 <strong>Wysokość:</strong> {item.height}mm</p>
-                          <p>🟦 <strong>Kolor listwy:</strong> {item.selectedListwa?.name || "Brak"}</p>
+                          <p>🟦 <strong>Kolor profilu:</strong> {item.selectedListwa?.name || "Brak"}</p>
                           <p>🟧 <strong>Kolor mocowania:</strong> {item.selectedMocowanie?.name || "Brak"}</p>
                         </div>
                       ))

@@ -32,6 +32,7 @@ function ProductDetails() {
   const [error, setError] = useState("");
 
   const listwyColors = product?.options?.listwyColors || [];
+  // const mocowaniaColors = product?.options?.mocowaniaColors?.[mountingType] || [];
   const mocowaniaColors = product?.options?.mocowaniaColors?.[mountingType] || [];
 
   const priceProduct = product?.options?.pricing;
@@ -111,6 +112,7 @@ function ProductDetails() {
     const mountingLabels = {
       nonInvasive: "Bezinwazyjny",
       invasive: "Inwazyjny",
+      invasiveAngular: "Inwazyjny Kątowy"
     };    
 
     const newProduct = {
@@ -173,7 +175,7 @@ function ProductDetails() {
             error={error}
           />
           <ColorSelection
-            title="Wybierz kolor listwy"
+            title="Wybierz kolor profilu"
             colors={listwyColors}
             selectedColor={selectedListwa}
             setSelectedColor={setSelectedListwa}

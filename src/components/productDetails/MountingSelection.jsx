@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import Bezinwazyjne from "../../assets/other/bezinwazyjne.png";
 import Inwazyjne from "../../assets/other/inwazyjne.png";
+import InwazyjneKatowe from "../../assets/other/inwazyjnekatowe.jpg";
 import markDone from "../../assets/icons/mark-done.png"
 
 function MountingSelection({ mountingType, setMountingType }) {
@@ -12,6 +13,7 @@ function MountingSelection({ mountingType, setMountingType }) {
           {[
             { type: "nonInvasive", label: "Bezinwazyjny", desc: "System bez wkręcania w okno" , img: Bezinwazyjne },
             { type: "invasive", label: "Inwazyjny", desc: "System wkręcamy w ramę okienną" , img: Inwazyjne },
+            { type: "invasiveAngular", label: "Inwazyjny Kątowe", desc: "System wkręcamy w ramę okienną" , img: InwazyjneKatowe },
           ].map(({ type, label, desc, img }) => (
             <div
               key={type}

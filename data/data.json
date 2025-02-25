@@ -226,12 +226,14 @@
           ],  
           "mounting": {
             "invasive": true,
-            "nonInvasive": true
+            "nonInvasive": true,
+            "invasiveAngular": true
           },
           "listwyColors": [
             {
                 "name": "Antracyt",
                 "imageLinkInvasive": "../assets/roleta-standard/listwy/inwazyjne/PR_INW_ANTRACYT.png",
+                "imageLinkInvasiveAngular": "../assets/roleta-standard/listwy/inwazyjne/PR_INW_ANTRACYT.png",
                 "imageLinkNonInvasive": "../assets/roleta-standard/listwy/bezinwazyjne/PR_BEZINW_ANTRACYT.png",
                 "imageColor": "../assets/mocowania/profil_antracyt.png",
                 "price": 0
@@ -239,6 +241,7 @@
             {
                 "name": "Beżowy",
                 "imageLinkInvasive": "../assets/roleta-standard/listwy/inwazyjne/PR_INW_BEZOWY.png",
+                "imageLinkInvasiveAngular": "../assets/roleta-standard/listwy/inwazyjne/PR_INW_BEZOWY.png",
                 "imageLinkNonInvasive": "../assets/roleta-standard/listwy/bezinwazyjne/PR_BEZINW_BEZOWY.png",
                 "imageColor": "../assets/mocowania/profil_bez.png",
                 "price": 0
@@ -246,6 +249,7 @@
             {
                 "name": "Biały okleina",
                 "imageLinkInvasive": "../assets/roleta-standard/listwy/inwazyjne/PR_INW_BIALY_OKLEINA.png",
+                "imageLinkInvasiveAngular": "../assets/roleta-standard/listwy/inwazyjne/PR_INW_BIALY_OKLEINA.png",
                 "imageLinkNonInvasive": "../assets/roleta-standard/listwy/bezinwazyjne/PR_BEZINW_BIALY_OKLEINA.png",
                 "imageColor": "../assets/mocowania/profil_bialy_okleina_10zl.png",
                 "price": 10
@@ -253,6 +257,7 @@
             {
               "name": "Białe",
               "imageLinkInvasive": "../assets/roleta-standard/listwy/inwazyjne/PR_INW_BIALY.png",
+              "imageLinkInvasiveAngular": "../assets/roleta-standard/listwy/inwazyjne/PR_INW_BIALY.png",
               "imageLinkNonInvasive": "../assets/roleta-standard/listwy/bezinwazyjne/PR_BEZINW_BIALY.png",
               "imageColor": "../assets/mocowania/profil_bialy.png",
               "price": 0
@@ -260,6 +265,7 @@
             {
                 "name": "Brązowy",
                 "imageLinkInvasive": "../assets/roleta-standard/listwy/inwazyjne/PR_INW_BRAZOWY.png",
+                "imageLinkInvasiveAngular": "../assets/roleta-standard/listwy/inwazyjne/PR_INW_BRAZOWY.png",
                 "imageLinkNonInvasive": "../assets/roleta-standard/listwy/bezinwazyjne/PR_BEZINW_BRAZOWY.png",
                 "imageColor": "../assets/mocowania/profil_ciemny_braz.png",
                 "price": 0
@@ -267,6 +273,7 @@
             {
               "name": "Czarny mat",
               "imageLinkInvasive": "../assets/roleta-standard/listwy/inwazyjne/PR_INW_CZARNY_MAT.png",
+              "imageLinkInvasiveAngular": "../assets/roleta-standard/listwy/inwazyjne/PR_INW_CZARNY_MAT.png",
               "imageLinkNonInvasive": "../assets/roleta-standard/listwy/bezinwazyjne/PR_BEZINW_CZARNY_MAT.png",
               "imageColor": "../assets/mocowania/profil_czarny_mat_10zl.png",
               "price": 10
@@ -274,6 +281,7 @@
             {
                 "name": "Dąb bagienny",
                 "imageLinkInvasive": "../assets/roleta-standard/listwy/inwazyjne/PR_INW_DAB_BAGIENNY_OKLEINA.png",
+                "imageLinkInvasiveAngular": "../assets/roleta-standard/listwy/inwazyjne/PR_INW_DAB_BAGIENNY_OKLEINA.png",
                 "imageLinkNonInvasive": "../assets/roleta-standard/listwy/bezinwazyjne/PR_BEZINW_DAB_BAGIENNY_OKLEINA.png",
                 "imageColor": "../assets/mocowania/profil_dab_bagienny_10zl.png",
                 "price": 10
@@ -281,6 +289,7 @@
             {
                 "name": "Mahoń",
                 "imageLinkInvasive": "../assets/roleta-standard/listwy/inwazyjne/PR_INW_MAHON.png",
+                "imageLinkInvasiveAngular": "../assets/roleta-standard/listwy/inwazyjne/PR_INW_MAHON.png",
                 "imageLinkNonInvasive": "../assets/roleta-standard/listwy/bezinwazyjne/PR_BEZINW_MAHON.png",
                 "imageColor": "../assets/mocowania/profil_mahon_10zl.png",
                 "price": 10
@@ -288,6 +297,7 @@
             {
                 "name": "Orzech",
                 "imageLinkInvasive": "../assets/roleta-standard/listwy/inwazyjne/PR_INW_ORZECH_OKLEINA.png",
+                "imageLinkInvasiveAngular": "../assets/roleta-standard/listwy/inwazyjne/PR_INW_ORZECH_OKLEINA.png",
                 "imageLinkNonInvasive": "../assets/roleta-standard/listwy/bezinwazyjne/PR_BEZINW_ORZECH_OKLEINA.png",
                 "imageColor": "../assets/mocowania/profil_orzech_10zl.png",
                 "price": 10
@@ -295,6 +305,7 @@
             {
                 "name": "Sosna",
                 "imageLinkInvasive": "../assets/roleta-standard/listwy/inwazyjne/PR_INW_SOSNA_OKLEINA.png",
+                "imageLinkInvasiveAngular": "../assets/roleta-standard/listwy/inwazyjne/PR_INW_SOSNA_OKLEINA.png",
                 "imageLinkNonInvasive": "../assets/roleta-standard/listwy/bezinwazyjne/PR_BEZINW_SOSNA_OKLEINA.png",
                 "imageColor": "../assets/mocowania/profil_sosna_10zl.png",
                 "price": 10
@@ -302,6 +313,7 @@
             {
                 "name": "Srebrny",
                 "imageLinkInvasive": "../assets/roleta-standard/listwy/inwazyjne/PR_INW_SREBRNY_ANODA.png",
+                "imageLinkInvasiveAngular": "../assets/roleta-standard/listwy/inwazyjne/PR_INW_SREBRNY_ANODA.png",
                 "imageLinkNonInvasive": "../assets/roleta-standard/listwy/bezinwazyjne/PR_BEZINW_SREBRNY_ANODA.png",
                 "imageColor": "../assets/mocowania/profil_srebrny.png",
                 "price": 0
@@ -309,6 +321,7 @@
             {
                 "name": "Winchester okleina",
                 "imageLinkInvasive": "../assets/roleta-standard/listwy/inwazyjne/PR_INW_WINCHESTER_OKLEINA.png",
+                "imageLinkInvasiveAngular": "../assets/roleta-standard/listwy/inwazyjne/PR_INW_WINCHESTER_OKLEINA.png",
                 "imageLinkNonInvasive": "../assets/roleta-standard/listwy/bezinwazyjne/PR_BEZINW_WINCHESTER_OKLEINA.png",
                 "imageColor": "../assets/mocowania/profil_winchester_10zl.png",
                 "price": 10
@@ -316,6 +329,7 @@
             {
               "name": "Złoty dąb",
               "imageLinkInvasive": "../assets/roleta-standard/listwy/inwazyjne/PR_INW_ZLOTY_DAB.png",
+              "imageLinkInvasiveAngular": "../assets/roleta-standard/listwy/inwazyjne/PR_INW_ZLOTY_DAB.png",
               "imageLinkNonInvasive": "../assets/roleta-standard/listwy/bezinwazyjne/PR_BEZINW_ZLOTY_DAB.png",
               "imageColor": "../assets/mocowania/profil_zloty_dab_10zl.png",
               "price": 10
@@ -323,6 +337,43 @@
           ],
           "mocowaniaColors": {
             "invasive": [
+              { 
+                "name": "Białe", 
+                "imageLink": "../assets/roleta-standard/mocowania/inwazyjne/MOC_INW_BIALY.png",
+                "imageColor": "../assets/roleta-standard/mocowania/wybierz-kolor/bialy.png"
+              },
+              { 
+                "name": "Czarne", 
+                "imageLink": "../assets/roleta-standard/mocowania/inwazyjne/MOC_INW_CZARNY.png",
+                "imageColor": "../assets/roleta-standard/mocowania/wybierz-kolor/czarny.png"
+              },
+              { 
+                "name": "Beżowy", 
+                "imageLink": "../assets/roleta-standard/mocowania/inwazyjne/MOC_INW_BEZOWY.png",
+                "imageColor": "../assets/roleta-standard/mocowania/wybierz-kolor/bezowy.png"
+              },
+              { 
+                "name": "Brązowy", 
+                "imageLink": "../assets/roleta-standard/mocowania/inwazyjne/MOC_INW_BRAZOWY.png",
+                "imageColor": "../assets/roleta-standard/mocowania/wybierz-kolor/braz.png"
+              },
+              { 
+                "name": "Jasny Brąz", 
+                "imageLink": "../assets/roleta-standard/mocowania/inwazyjne/MOC_INW_JASNYBRAZ.png",
+                "imageColor": "../assets/roleta-standard/mocowania/wybierz-kolor/jasnybraz.png"
+              },
+              { 
+                "name": "Kremowy", 
+                "imageLink": "../assets/roleta-standard/mocowania/inwazyjne/MOC_INW_KREMOWY.png",
+                "imageColor": "../assets/roleta-standard/mocowania/wybierz-kolor/kremowy.png"
+              },
+              { 
+                "name": "Szary", 
+                "imageLink": "../assets/roleta-standard/mocowania/inwazyjne/MOC_INW_SZARY.png",
+                "imageColor": "../assets/roleta-standard/mocowania/wybierz-kolor/szary.png"
+              }
+            ],
+            "invasiveAngular": [
               { 
                 "name": "Białe", 
                 "imageLink": "../assets/roleta-standard/mocowania/inwazyjne/MOC_INW_BIALY.png",
@@ -416,6 +467,47 @@
               ]
             },
             "invasive": {
+              "width": [
+                { "range": [200, 350], "price": 110 },
+                { "range": [351, 400], "price": 115 },
+                { "range": [401, 450], "price": 120 },
+                { "range": [451, 500], "price": 125 },
+                { "range": [501, 550], "price": 130 },
+                { "range": [551, 600], "price": 135 },
+                { "range": [601, 650], "price": 140 },
+                { "range": [651, 700], "price": 145 },
+                { "range": [701, 750], "price": 150 },
+                { "range": [751, 800], "price": 155 },
+                { "range": [801, 850], "price": 160 },
+                { "range": [851, 900], "price": 165 },
+                { "range": [901, 950], "price": 170 },
+                { "range": [951, 1000], "price": 175 },
+                { "range": [1001, 1050], "price": 180 },
+                { "range": [1051, 1100], "price": 185 },
+                { "range": [1101, 1150], "price": 190 },
+                { "range": [1151, 1200], "price": 195 },
+                { "range": [1201, 1250], "price": 245 },
+                { "range": [1251, 1300], "price": 250 },
+                { "range": [1301, 1350], "price": 255 },
+                { "range": [1351, 1400], "price": 260 },
+                { "range": [1401, 1450], "price": 265 },
+                { "range": [1451, 1500], "price": 270 },
+                { "range": [1501, 1550], "price": 275 },
+                { "range": [1551, 1600], "price": 280 },
+                { "range": [1601, 1650], "price": 285 },
+                { "range": [1651, 1700], "price": 290 },
+                { "range": [1701, 1750], "price": 295 },
+                { "range": [1751, 1800], "price": 300 },
+                { "range": [1801, 1850], "price": 305 },
+                { "range": [1851, 2000], "price": 310 }
+              ],
+              "height": [
+                { "range": [150, 1500], "addition": 0 },
+                { "range": [1501, 2300], "addition": 15 },
+                { "range": [2301, 2800], "addition": 45 }
+              ]
+            },
+            "invasiveAngular": {
               "width": [
                 { "range": [200, 350], "price": 110 },
                 { "range": [351, 400], "price": 115 },
@@ -685,12 +777,14 @@
           ],  
           "mounting": {
             "invasive": true,
-            "nonInvasive": true
+            "nonInvasive": true,
+            "invasiveAngular": true
           },
           "listwyColors": [
             {
                 "name": "Antracyt",
                 "imageLinkInvasive": "../assets/roleta-standard/listwy/inwazyjne/PR_INW_ANTRACYT.png",
+                "imageLinkInvasiveAngular": "../assets/roleta-standard/listwy/inwazyjne/PR_INW_ANTRACYT.png",
                 "imageLinkNonInvasive": "../assets/roleta-standard/listwy/bezinwazyjne/PR_BEZINW_ANTRACYT.png",
                 "imageColor": "../assets/mocowania/profil_antracyt.png",
                 "price": 0
@@ -698,6 +792,7 @@
             {
                 "name": "Beżowy",
                 "imageLinkInvasive": "../assets/roleta-standard/listwy/inwazyjne/PR_INW_BEZOWY.png",
+                "imageLinkInvasiveAngular": "../assets/roleta-standard/listwy/inwazyjne/PR_INW_BEZOWY.png",
                 "imageLinkNonInvasive": "../assets/roleta-standard/listwy/bezinwazyjne/PR_BEZINW_BEZOWY.png",
                 "imageColor": "../assets/mocowania/profil_bez.png",
                 "price": 0
@@ -705,6 +800,7 @@
             {
                 "name": "Biały okleina",
                 "imageLinkInvasive": "../assets/roleta-standard/listwy/inwazyjne/PR_INW_BIALY_OKLEINA.png",
+                "imageLinkInvasiveAngular": "../assets/roleta-standard/listwy/inwazyjne/PR_INW_BIALY_OKLEINA.png",
                 "imageLinkNonInvasive": "../assets/roleta-standard/listwy/bezinwazyjne/PR_BEZINW_BIALY_OKLEINA.png",
                 "imageColor": "../assets/mocowania/profil_bialy_okleina_10zl.png",
                 "price": 10
@@ -712,6 +808,7 @@
             {
               "name": "Białe",
               "imageLinkInvasive": "../assets/roleta-standard/listwy/inwazyjne/PR_INW_BIALY.png",
+              "imageLinkInvasiveAngular": "../assets/roleta-standard/listwy/inwazyjne/PR_INW_BIALY.png",
               "imageLinkNonInvasive": "../assets/roleta-standard/listwy/bezinwazyjne/PR_BEZINW_BIALY.png",
               "imageColor": "../assets/mocowania/profil_bialy.png",
               "price": 0
@@ -719,6 +816,7 @@
             {
                 "name": "Brązowy",
                 "imageLinkInvasive": "../assets/roleta-standard/listwy/inwazyjne/PR_INW_BRAZOWY.png",
+                "imageLinkInvasiveAngular": "../assets/roleta-standard/listwy/inwazyjne/PR_INW_BRAZOWY.png",
                 "imageLinkNonInvasive": "../assets/roleta-standard/listwy/bezinwazyjne/PR_BEZINW_BRAZOWY.png",
                 "imageColor": "../assets/mocowania/profil_ciemny_braz.png",
                 "price": 0
@@ -726,6 +824,7 @@
             {
               "name": "Czarny mat",
               "imageLinkInvasive": "../assets/roleta-standard/listwy/inwazyjne/PR_INW_CZARNY_MAT.png",
+              "imageLinkInvasiveAngular": "../assets/roleta-standard/listwy/inwazyjne/PR_INW_CZARNY_MAT.png",
               "imageLinkNonInvasive": "../assets/roleta-standard/listwy/bezinwazyjne/PR_BEZINW_CZARNY_MAT.png",
               "imageColor": "../assets/mocowania/profil_czarny_mat_10zl.png",
               "price": 10
@@ -733,6 +832,7 @@
             {
                 "name": "Dąb bagienny",
                 "imageLinkInvasive": "../assets/roleta-standard/listwy/inwazyjne/PR_INW_DAB_BAGIENNY_OKLEINA.png",
+                "imageLinkInvasiveAngular": "../assets/roleta-standard/listwy/inwazyjne/PR_INW_DAB_BAGIENNY_OKLEINA.png",
                 "imageLinkNonInvasive": "../assets/roleta-standard/listwy/bezinwazyjne/PR_BEZINW_DAB_BAGIENNY_OKLEINA.png",
                 "imageColor": "../assets/mocowania/profil_dab_bagienny_10zl.png",
                 "price": 10
@@ -740,6 +840,7 @@
             {
                 "name": "Mahoń",
                 "imageLinkInvasive": "../assets/roleta-standard/listwy/inwazyjne/PR_INW_MAHON.png",
+                "imageLinkInvasiveAngular": "../assets/roleta-standard/listwy/inwazyjne/PR_INW_MAHON.png",
                 "imageLinkNonInvasive": "../assets/roleta-standard/listwy/bezinwazyjne/PR_BEZINW_MAHON.png",
                 "imageColor": "../assets/mocowania/profil_mahon_10zl.png",
                 "price": 10
@@ -747,6 +848,7 @@
             {
                 "name": "Orzech",
                 "imageLinkInvasive": "../assets/roleta-standard/listwy/inwazyjne/PR_INW_ORZECH_OKLEINA.png",
+                "imageLinkInvasiveAngular": "../assets/roleta-standard/listwy/inwazyjne/PR_INW_ORZECH_OKLEINA.png",
                 "imageLinkNonInvasive": "../assets/roleta-standard/listwy/bezinwazyjne/PR_BEZINW_ORZECH_OKLEINA.png",
                 "imageColor": "../assets/mocowania/profil_orzech_10zl.png",
                 "price": 10
@@ -754,6 +856,7 @@
             {
                 "name": "Sosna",
                 "imageLinkInvasive": "../assets/roleta-standard/listwy/inwazyjne/PR_INW_SOSNA_OKLEINA.png",
+                "imageLinkInvasiveAngular": "../assets/roleta-standard/listwy/inwazyjne/PR_INW_SOSNA_OKLEINA.png",
                 "imageLinkNonInvasive": "../assets/roleta-standard/listwy/bezinwazyjne/PR_BEZINW_SOSNA_OKLEINA.png",
                 "imageColor": "../assets/mocowania/profil_sosna_10zl.png",
                 "price": 10
@@ -761,6 +864,7 @@
             {
                 "name": "Srebrny",
                 "imageLinkInvasive": "../assets/roleta-standard/listwy/inwazyjne/PR_INW_SREBRNY_ANODA.png",
+                "imageLinkInvasiveAngular": "../assets/roleta-standard/listwy/inwazyjne/PR_INW_SREBRNY_ANODA.png",
                 "imageLinkNonInvasive": "../assets/roleta-standard/listwy/bezinwazyjne/PR_BEZINW_SREBRNY_ANODA.png",
                 "imageColor": "../assets/mocowania/profil_srebrny.png",
                 "price": 0
@@ -768,6 +872,7 @@
             {
                 "name": "Winchester okleina",
                 "imageLinkInvasive": "../assets/roleta-standard/listwy/inwazyjne/PR_INW_WINCHESTER_OKLEINA.png",
+                "imageLinkInvasiveAngular": "../assets/roleta-standard/listwy/inwazyjne/PR_INW_WINCHESTER_OKLEINA.png",
                 "imageLinkNonInvasive": "../assets/roleta-standard/listwy/bezinwazyjne/PR_BEZINW_WINCHESTER_OKLEINA.png",
                 "imageColor": "../assets/mocowania/profil_winchester_10zl.png",
                 "price": 10
@@ -775,6 +880,7 @@
             {
               "name": "Złoty dąb",
               "imageLinkInvasive": "../assets/roleta-standard/listwy/inwazyjne/PR_INW_ZLOTY_DAB.png",
+              "imageLinkInvasiveAngular": "../assets/roleta-standard/listwy/inwazyjne/PR_INW_ZLOTY_DAB.png",
               "imageLinkNonInvasive": "../assets/roleta-standard/listwy/bezinwazyjne/PR_BEZINW_ZLOTY_DAB.png",
               "imageColor": "../assets/mocowania/profil_zloty_dab_10zl.png",
               "price": 10
@@ -782,6 +888,43 @@
           ],
           "mocowaniaColors": {
             "invasive": [
+              { 
+                "name": "Białe", 
+                "imageLink": "../assets/roleta-standard/mocowania/inwazyjne/MOC_INW_BIALY.png",
+                "imageColor": "../assets/roleta-standard/mocowania/wybierz-kolor/bialy.png"
+              },
+              { 
+                "name": "Czarne", 
+                "imageLink": "../assets/roleta-standard/mocowania/inwazyjne/MOC_INW_CZARNY.png",
+                "imageColor": "../assets/roleta-standard/mocowania/wybierz-kolor/czarny.png"
+              },
+              { 
+                "name": "Beżowy", 
+                "imageLink": "../assets/roleta-standard/mocowania/inwazyjne/MOC_INW_BEZOWY.png",
+                "imageColor": "../assets/roleta-standard/mocowania/wybierz-kolor/bezowy.png"
+              },
+              { 
+                "name": "Brązowy", 
+                "imageLink": "../assets/roleta-standard/mocowania/inwazyjne/MOC_INW_BRAZOWY.png",
+                "imageColor": "../assets/roleta-standard/mocowania/wybierz-kolor/braz.png"
+              },
+              { 
+                "name": "Jasny Brąz", 
+                "imageLink": "../assets/roleta-standard/mocowania/inwazyjne/MOC_INW_JASNYBRAZ.png",
+                "imageColor": "../assets/roleta-standard/mocowania/wybierz-kolor/jasnybraz.png"
+              },
+              { 
+                "name": "Kremowy", 
+                "imageLink": "../assets/roleta-standard/mocowania/inwazyjne/MOC_INW_KREMOWY.png",
+                "imageColor": "../assets/roleta-standard/mocowania/wybierz-kolor/kremowy.png"
+              },
+              { 
+                "name": "Szary", 
+                "imageLink": "../assets/roleta-standard/mocowania/inwazyjne/MOC_INW_SZARY.png",
+                "imageColor": "../assets/roleta-standard/mocowania/wybierz-kolor/szary.png"
+              }
+            ],
+            "invasiveAngular": [
               { 
                 "name": "Białe", 
                 "imageLink": "../assets/roleta-standard/mocowania/inwazyjne/MOC_INW_BIALY.png",
@@ -914,6 +1057,47 @@
                 { "range": [1501, 2300], "addition": 15 },
                 { "range": [2301, 2800], "addition": 45 }
               ]
+            },
+            "invasiveAngular": {
+              "width": [
+                { "range": [200, 350], "price": 115 },
+                { "range": [351, 400], "price": 120 },
+                { "range": [401, 450], "price": 125 },
+                { "range": [451, 500], "price": 130 },
+                { "range": [501, 550], "price": 135 },
+                { "range": [551, 600], "price": 140 },
+                { "range": [601, 650], "price": 145 },
+                { "range": [651, 700], "price": 150 },
+                { "range": [701, 750], "price": 155 },
+                { "range": [751, 800], "price": 160 },
+                { "range": [801, 850], "price": 165 },
+                { "range": [851, 900], "price": 170 },
+                { "range": [901, 950], "price": 175 },
+                { "range": [951, 1000], "price": 180 },
+                { "range": [1001, 1050], "price": 185 },
+                { "range": [1051, 1100], "price": 190 },
+                { "range": [1101, 1150], "price": 195 },
+                { "range": [1151, 1200], "price": 200 },
+                { "range": [1201, 1250], "price": 250 },
+                { "range": [1251, 1300], "price": 255 },
+                { "range": [1301, 1350], "price": 260 },
+                { "range": [1351, 1400], "price": 265 },
+                { "range": [1401, 1450], "price": 270 },
+                { "range": [1451, 1500], "price": 275 },
+                { "range": [1501, 1550], "price": 280 },
+                { "range": [1551, 1600], "price": 285 },
+                { "range": [1601, 1650], "price": 290 },
+                { "range": [1651, 1700], "price": 295 },
+                { "range": [1701, 1750], "price": 300 },
+                { "range": [1751, 1800], "price": 305 },
+                { "range": [1801, 1850], "price": 310 },
+                { "range": [1851, 2000], "price": 315 }
+              ],
+              "height": [
+                { "range": [150, 1500], "addition": 0 },
+                { "range": [1501, 2300], "addition": 15 },
+                { "range": [2301, 2800], "addition": 45 }
+              ]
             }
           }
         }
@@ -976,12 +1160,14 @@
           ],  
           "mounting": {
             "invasive": true,
+            "invasiveAngular": true,
             "nonInvasive": true
           },
           "listwyColors": [
             {
                 "name": "Antracyt",
                 "imageLinkInvasive": "../assets/roleta-standard/listwy/inwazyjne/PR_INW_ANTRACYT.png",
+                "imageLinkInvasiveAngular": "../assets/roleta-standard/listwy/inwazyjne/PR_INW_ANTRACYT.png",
                 "imageLinkNonInvasive": "../assets/roleta-standard/listwy/bezinwazyjne/PR_BEZINW_ANTRACYT.png",
                 "imageColor": "../assets/mocowania/profil_antracyt.png",
                 "price": 0
@@ -989,6 +1175,7 @@
             {
                 "name": "Beżowy",
                 "imageLinkInvasive": "../assets/roleta-standard/listwy/inwazyjne/PR_INW_BEZOWY.png",
+                "imageLinkInvasiveAngular": "../assets/roleta-standard/listwy/inwazyjne/PR_INW_BEZOWY.png",
                 "imageLinkNonInvasive": "../assets/roleta-standard/listwy/bezinwazyjne/PR_BEZINW_BEZOWY.png",
                 "imageColor": "../assets/mocowania/profil_bez.png",
                 "price": 0
@@ -996,6 +1183,7 @@
             {
                 "name": "Biały okleina",
                 "imageLinkInvasive": "../assets/roleta-standard/listwy/inwazyjne/PR_INW_BIALY_OKLEINA.png",
+                "imageLinkInvasiveAngular": "../assets/roleta-standard/listwy/inwazyjne/PR_INW_BIALY_OKLEINA.png",
                 "imageLinkNonInvasive": "../assets/roleta-standard/listwy/bezinwazyjne/PR_BEZINW_BIALY_OKLEINA.png",
                 "imageColor": "../assets/mocowania/profil_bialy_okleina_10zl.png",
                 "price": 10
@@ -1003,6 +1191,7 @@
             {
               "name": "Białe",
               "imageLinkInvasive": "../assets/roleta-standard/listwy/inwazyjne/PR_INW_BIALY.png",
+              "imageLinkInvasiveAngular": "../assets/roleta-standard/listwy/inwazyjne/PR_INW_BIALY.png",
               "imageLinkNonInvasive": "../assets/roleta-standard/listwy/bezinwazyjne/PR_BEZINW_BIALY.png",
               "imageColor": "../assets/mocowania/profil_bialy.png",
               "price": 0
@@ -1010,6 +1199,7 @@
             {
                 "name": "Brązowy",
                 "imageLinkInvasive": "../assets/roleta-standard/listwy/inwazyjne/PR_INW_BRAZOWY.png",
+                "imageLinkInvasiveAngular": "../assets/roleta-standard/listwy/inwazyjne/PR_INW_BRAZOWY.png",
                 "imageLinkNonInvasive": "../assets/roleta-standard/listwy/bezinwazyjne/PR_BEZINW_BRAZOWY.png",
                 "imageColor": "../assets/mocowania/profil_ciemny_braz.png",
                 "price": 0
@@ -1017,6 +1207,7 @@
             {
               "name": "Czarny mat",
               "imageLinkInvasive": "../assets/roleta-standard/listwy/inwazyjne/PR_INW_CZARNY_MAT.png",
+              "imageLinkInvasiveAngular": "../assets/roleta-standard/listwy/inwazyjne/PR_INW_CZARNY_MAT.png",
               "imageLinkNonInvasive": "../assets/roleta-standard/listwy/bezinwazyjne/PR_BEZINW_CZARNY_MAT.png",
               "imageColor": "../assets/mocowania/profil_czarny_mat_10zl.png",
               "price": 10
@@ -1024,6 +1215,7 @@
             {
                 "name": "Dąb bagienny",
                 "imageLinkInvasive": "../assets/roleta-standard/listwy/inwazyjne/PR_INW_DAB_BAGIENNY_OKLEINA.png",
+                "imageLinkInvasiveAngular": "../assets/roleta-standard/listwy/inwazyjne/PR_INW_DAB_BAGIENNY_OKLEINA.png",
                 "imageLinkNonInvasive": "../assets/roleta-standard/listwy/bezinwazyjne/PR_BEZINW_DAB_BAGIENNY_OKLEINA.png",
                 "imageColor": "../assets/mocowania/profil_dab_bagienny_10zl.png",
                 "price": 10
@@ -1031,6 +1223,7 @@
             {
                 "name": "Mahoń",
                 "imageLinkInvasive": "../assets/roleta-standard/listwy/inwazyjne/PR_INW_MAHON.png",
+                "imageLinkInvasiveAngular": "../assets/roleta-standard/listwy/inwazyjne/PR_INW_MAHON.png",
                 "imageLinkNonInvasive": "../assets/roleta-standard/listwy/bezinwazyjne/PR_BEZINW_MAHON.png",
                 "imageColor": "../assets/mocowania/profil_mahon_10zl.png",
                 "price": 10
@@ -1038,6 +1231,7 @@
             {
                 "name": "Orzech",
                 "imageLinkInvasive": "../assets/roleta-standard/listwy/inwazyjne/PR_INW_ORZECH_OKLEINA.png",
+                "imageLinkInvasiveAngular": "../assets/roleta-standard/listwy/inwazyjne/PR_INW_ORZECH_OKLEINA.png",
                 "imageLinkNonInvasive": "../assets/roleta-standard/listwy/bezinwazyjne/PR_BEZINW_ORZECH_OKLEINA.png",
                 "imageColor": "../assets/mocowania/profil_orzech_10zl.png",
                 "price": 10
@@ -1045,6 +1239,7 @@
             {
                 "name": "Sosna",
                 "imageLinkInvasive": "../assets/roleta-standard/listwy/inwazyjne/PR_INW_SOSNA_OKLEINA.png",
+                "imageLinkInvasiveAngular": "../assets/roleta-standard/listwy/inwazyjne/PR_INW_SOSNA_OKLEINA.png",
                 "imageLinkNonInvasive": "../assets/roleta-standard/listwy/bezinwazyjne/PR_BEZINW_SOSNA_OKLEINA.png",
                 "imageColor": "../assets/mocowania/profil_sosna_10zl.png",
                 "price": 10
@@ -1052,6 +1247,7 @@
             {
                 "name": "Srebrny",
                 "imageLinkInvasive": "../assets/roleta-standard/listwy/inwazyjne/PR_INW_SREBRNY_ANODA.png",
+                "imageLinkInvasiveAngular": "../assets/roleta-standard/listwy/inwazyjne/PR_INW_SREBRNY_ANODA.png",
                 "imageLinkNonInvasive": "../assets/roleta-standard/listwy/bezinwazyjne/PR_BEZINW_SREBRNY_ANODA.png",
                 "imageColor": "../assets/mocowania/profil_srebrny.png",
                 "price": 0
@@ -1059,6 +1255,7 @@
             {
                 "name": "Winchester okleina",
                 "imageLinkInvasive": "../assets/roleta-standard/listwy/inwazyjne/PR_INW_WINCHESTER_OKLEINA.png",
+                "imageLinkInvasiveAngular": "../assets/roleta-standard/listwy/inwazyjne/PR_INW_WINCHESTER_OKLEINA.png",
                 "imageLinkNonInvasive": "../assets/roleta-standard/listwy/bezinwazyjne/PR_BEZINW_WINCHESTER_OKLEINA.png",
                 "imageColor": "../assets/mocowania/profil_winchester_10zl.png",
                 "price": 10
@@ -1066,6 +1263,7 @@
             {
               "name": "Złoty dąb",
               "imageLinkInvasive": "../assets/roleta-standard/listwy/inwazyjne/PR_INW_ZLOTY_DAB.png",
+              "imageLinkInvasiveAngular": "../assets/roleta-standard/listwy/inwazyjne/PR_INW_ZLOTY_DAB.png",
               "imageLinkNonInvasive": "../assets/roleta-standard/listwy/bezinwazyjne/PR_BEZINW_ZLOTY_DAB.png",
               "imageColor": "../assets/mocowania/profil_zloty_dab_10zl.png",
               "price": 10
@@ -1073,6 +1271,43 @@
           ],
           "mocowaniaColors": {
             "invasive": [
+              { 
+                "name": "Białe", 
+                "imageLink": "../assets/roleta-standard/mocowania/inwazyjne/MOC_INW_BIALY.png",
+                "imageColor": "../assets/roleta-standard/mocowania/wybierz-kolor/bialy.png"
+              },
+              { 
+                "name": "Czarne", 
+                "imageLink": "../assets/roleta-standard/mocowania/inwazyjne/MOC_INW_CZARNY.png",
+                "imageColor": "../assets/roleta-standard/mocowania/wybierz-kolor/czarny.png"
+              },
+              { 
+                "name": "Beżowy", 
+                "imageLink": "../assets/roleta-standard/mocowania/inwazyjne/MOC_INW_BEZOWY.png",
+                "imageColor": "../assets/roleta-standard/mocowania/wybierz-kolor/bezowy.png"
+              },
+              { 
+                "name": "Brązowy", 
+                "imageLink": "../assets/roleta-standard/mocowania/inwazyjne/MOC_INW_BRAZOWY.png",
+                "imageColor": "../assets/roleta-standard/mocowania/wybierz-kolor/braz.png"
+              },
+              { 
+                "name": "Jasny Brąz", 
+                "imageLink": "../assets/roleta-standard/mocowania/inwazyjne/MOC_INW_JASNYBRAZ.png",
+                "imageColor": "../assets/roleta-standard/mocowania/wybierz-kolor/jasnybraz.png"
+              },
+              { 
+                "name": "Kremowy", 
+                "imageLink": "../assets/roleta-standard/mocowania/inwazyjne/MOC_INW_KREMOWY.png",
+                "imageColor": "../assets/roleta-standard/mocowania/wybierz-kolor/kremowy.png"
+              },
+              { 
+                "name": "Szary", 
+                "imageLink": "../assets/roleta-standard/mocowania/inwazyjne/MOC_INW_SZARY.png",
+                "imageColor": "../assets/roleta-standard/mocowania/wybierz-kolor/szary.png"
+              }
+            ],
+            "invasiveAngular": [
               { 
                 "name": "Białe", 
                 "imageLink": "../assets/roleta-standard/mocowania/inwazyjne/MOC_INW_BIALY.png",
@@ -1205,6 +1440,47 @@
                 { "range": [1501, 2300], "addition": 15 },
                 { "range": [2301, 2800], "addition": 45 }
               ]
+            },
+            "invasiveAngular": {
+              "width": [
+                { "range": [200, 350], "price": 115 },
+                { "range": [351, 400], "price": 120 },
+                { "range": [401, 450], "price": 125 },
+                { "range": [451, 500], "price": 130 },
+                { "range": [501, 550], "price": 135 },
+                { "range": [551, 600], "price": 140 },
+                { "range": [601, 650], "price": 145 },
+                { "range": [651, 700], "price": 150 },
+                { "range": [701, 750], "price": 155 },
+                { "range": [751, 800], "price": 160 },
+                { "range": [801, 850], "price": 165 },
+                { "range": [851, 900], "price": 170 },
+                { "range": [901, 950], "price": 175 },
+                { "range": [951, 1000], "price": 180 },
+                { "range": [1001, 1050], "price": 185 },
+                { "range": [1051, 1100], "price": 190 },
+                { "range": [1101, 1150], "price": 195 },
+                { "range": [1151, 1200], "price": 200 },
+                { "range": [1201, 1250], "price": 250 },
+                { "range": [1251, 1300], "price": 255 },
+                { "range": [1301, 1350], "price": 260 },
+                { "range": [1351, 1400], "price": 265 },
+                { "range": [1401, 1450], "price": 270 },
+                { "range": [1451, 1500], "price": 275 },
+                { "range": [1501, 1550], "price": 280 },
+                { "range": [1551, 1600], "price": 285 },
+                { "range": [1601, 1650], "price": 290 },
+                { "range": [1651, 1700], "price": 295 },
+                { "range": [1701, 1750], "price": 300 },
+                { "range": [1751, 1800], "price": 305 },
+                { "range": [1801, 1850], "price": 310 },
+                { "range": [1851, 2000], "price": 315 }
+              ],
+              "height": [
+                { "range": [150, 1500], "addition": 0 },
+                { "range": [1501, 2300], "addition": 15 },
+                { "range": [2301, 2800], "addition": 45 }
+              ]
             }
           }
         }
@@ -1267,12 +1543,14 @@
           ],  
           "mounting": {
             "invasive": true,
-            "nonInvasive": true
+            "nonInvasive": true,
+            "invasiveAngular": true
           },
           "listwyColors": [
             {
                 "name": "Antracyt",
                 "imageLinkInvasive": "../assets/roleta-standard/listwy/inwazyjne/PR_INW_ANTRACYT.png",
+                "imageLinkInvasiveAngular": "../assets/roleta-standard/listwy/inwazyjne/PR_INW_ANTRACYT.png",
                 "imageLinkNonInvasive": "../assets/roleta-standard/listwy/bezinwazyjne/PR_BEZINW_ANTRACYT.png",
                 "imageColor": "../assets/mocowania/profil_antracyt.png",
                 "price": 0
@@ -1280,6 +1558,7 @@
             {
                 "name": "Beżowy",
                 "imageLinkInvasive": "../assets/roleta-standard/listwy/inwazyjne/PR_INW_BEZOWY.png",
+                "imageLinkInvasiveAngular": "../assets/roleta-standard/listwy/inwazyjne/PR_INW_BEZOWY.png",
                 "imageLinkNonInvasive": "../assets/roleta-standard/listwy/bezinwazyjne/PR_BEZINW_BEZOWY.png",
                 "imageColor": "../assets/mocowania/profil_bez.png",
                 "price": 0
@@ -1287,6 +1566,7 @@
             {
                 "name": "Biały okleina",
                 "imageLinkInvasive": "../assets/roleta-standard/listwy/inwazyjne/PR_INW_BIALY_OKLEINA.png",
+                "imageLinkInvasiveAngular": "../assets/roleta-standard/listwy/inwazyjne/PR_INW_BIALY_OKLEINA.png",
                 "imageLinkNonInvasive": "../assets/roleta-standard/listwy/bezinwazyjne/PR_BEZINW_BIALY_OKLEINA.png",
                 "imageColor": "../assets/mocowania/profil_bialy_okleina_10zl.png",
                 "price": 10
@@ -1294,6 +1574,7 @@
             {
               "name": "Białe",
               "imageLinkInvasive": "../assets/roleta-standard/listwy/inwazyjne/PR_INW_BIALY.png",
+              "imageLinkInvasiveAngular": "../assets/roleta-standard/listwy/inwazyjne/PR_INW_BIALY.png",
               "imageLinkNonInvasive": "../assets/roleta-standard/listwy/bezinwazyjne/PR_BEZINW_BIALY.png",
               "imageColor": "../assets/mocowania/profil_bialy.png",
               "price": 0
@@ -1301,6 +1582,7 @@
             {
                 "name": "Brązowy",
                 "imageLinkInvasive": "../assets/roleta-standard/listwy/inwazyjne/PR_INW_BRAZOWY.png",
+                "imageLinkInvasiveAngular": "../assets/roleta-standard/listwy/inwazyjne/PR_INW_BRAZOWY.png",
                 "imageLinkNonInvasive": "../assets/roleta-standard/listwy/bezinwazyjne/PR_BEZINW_BRAZOWY.png",
                 "imageColor": "../assets/mocowania/profil_ciemny_braz.png",
                 "price": 0
@@ -1308,6 +1590,7 @@
             {
               "name": "Czarny mat",
               "imageLinkInvasive": "../assets/roleta-standard/listwy/inwazyjne/PR_INW_CZARNY_MAT.png",
+              "imageLinkInvasiveAngular": "../assets/roleta-standard/listwy/inwazyjne/PR_INW_CZARNY_MAT.png",
               "imageLinkNonInvasive": "../assets/roleta-standard/listwy/bezinwazyjne/PR_BEZINW_CZARNY_MAT.png",
               "imageColor": "../assets/mocowania/profil_czarny_mat_10zl.png",
               "price": 10
@@ -1315,6 +1598,7 @@
             {
                 "name": "Dąb bagienny",
                 "imageLinkInvasive": "../assets/roleta-standard/listwy/inwazyjne/PR_INW_DAB_BAGIENNY_OKLEINA.png",
+                "imageLinkInvasiveAngular": "../assets/roleta-standard/listwy/inwazyjne/PR_INW_DAB_BAGIENNY_OKLEINA.png",
                 "imageLinkNonInvasive": "../assets/roleta-standard/listwy/bezinwazyjne/PR_BEZINW_DAB_BAGIENNY_OKLEINA.png",
                 "imageColor": "../assets/mocowania/profil_dab_bagienny_10zl.png",
                 "price": 10
@@ -1322,6 +1606,7 @@
             {
                 "name": "Mahoń",
                 "imageLinkInvasive": "../assets/roleta-standard/listwy/inwazyjne/PR_INW_MAHON.png",
+                "imageLinkInvasiveAngular": "../assets/roleta-standard/listwy/inwazyjne/PR_INW_MAHON.png",
                 "imageLinkNonInvasive": "../assets/roleta-standard/listwy/bezinwazyjne/PR_BEZINW_MAHON.png",
                 "imageColor": "../assets/mocowania/profil_mahon_10zl.png",
                 "price": 10
@@ -1329,6 +1614,7 @@
             {
                 "name": "Orzech",
                 "imageLinkInvasive": "../assets/roleta-standard/listwy/inwazyjne/PR_INW_ORZECH_OKLEINA.png",
+                "imageLinkInvasiveAngular": "../assets/roleta-standard/listwy/inwazyjne/PR_INW_ORZECH_OKLEINA.png",
                 "imageLinkNonInvasive": "../assets/roleta-standard/listwy/bezinwazyjne/PR_BEZINW_ORZECH_OKLEINA.png",
                 "imageColor": "../assets/mocowania/profil_orzech_10zl.png",
                 "price": 10
@@ -1336,6 +1622,7 @@
             {
                 "name": "Sosna",
                 "imageLinkInvasive": "../assets/roleta-standard/listwy/inwazyjne/PR_INW_SOSNA_OKLEINA.png",
+                "imageLinkInvasiveAngular": "../assets/roleta-standard/listwy/inwazyjne/PR_INW_SOSNA_OKLEINA.png",
                 "imageLinkNonInvasive": "../assets/roleta-standard/listwy/bezinwazyjne/PR_BEZINW_SOSNA_OKLEINA.png",
                 "imageColor": "../assets/mocowania/profil_sosna_10zl.png",
                 "price": 10
@@ -1343,6 +1630,7 @@
             {
                 "name": "Srebrny",
                 "imageLinkInvasive": "../assets/roleta-standard/listwy/inwazyjne/PR_INW_SREBRNY_ANODA.png",
+                "imageLinkInvasiveAngular": "../assets/roleta-standard/listwy/inwazyjne/PR_INW_SREBRNY_ANODA.png",
                 "imageLinkNonInvasive": "../assets/roleta-standard/listwy/bezinwazyjne/PR_BEZINW_SREBRNY_ANODA.png",
                 "imageColor": "../assets/mocowania/profil_srebrny.png",
                 "price": 0
@@ -1350,6 +1638,7 @@
             {
                 "name": "Winchester okleina",
                 "imageLinkInvasive": "../assets/roleta-standard/listwy/inwazyjne/PR_INW_WINCHESTER_OKLEINA.png",
+                "imageLinkInvasiveAngular": "../assets/roleta-standard/listwy/inwazyjne/PR_INW_WINCHESTER_OKLEINA.png",
                 "imageLinkNonInvasive": "../assets/roleta-standard/listwy/bezinwazyjne/PR_BEZINW_WINCHESTER_OKLEINA.png",
                 "imageColor": "../assets/mocowania/profil_winchester_10zl.png",
                 "price": 10
@@ -1357,6 +1646,7 @@
             {
               "name": "Złoty dąb",
               "imageLinkInvasive": "../assets/roleta-standard/listwy/inwazyjne/PR_INW_ZLOTY_DAB.png",
+              "imageLinkInvasiveAngular": "../assets/roleta-standard/listwy/inwazyjne/PR_INW_ZLOTY_DAB.png",
               "imageLinkNonInvasive": "../assets/roleta-standard/listwy/bezinwazyjne/PR_BEZINW_ZLOTY_DAB.png",
               "imageColor": "../assets/mocowania/profil_zloty_dab_10zl.png",
               "price": 10
@@ -1364,6 +1654,43 @@
           ],
           "mocowaniaColors": {
             "invasive": [
+              { 
+                "name": "Białe", 
+                "imageLink": "../assets/roleta-standard/mocowania/inwazyjne/MOC_INW_BIALY.png",
+                "imageColor": "../assets/roleta-standard/mocowania/wybierz-kolor/bialy.png"
+              },
+              { 
+                "name": "Czarne", 
+                "imageLink": "../assets/roleta-standard/mocowania/inwazyjne/MOC_INW_CZARNY.png",
+                "imageColor": "../assets/roleta-standard/mocowania/wybierz-kolor/czarny.png"
+              },
+              { 
+                "name": "Beżowy", 
+                "imageLink": "../assets/roleta-standard/mocowania/inwazyjne/MOC_INW_BEZOWY.png",
+                "imageColor": "../assets/roleta-standard/mocowania/wybierz-kolor/bezowy.png"
+              },
+              { 
+                "name": "Brązowy", 
+                "imageLink": "../assets/roleta-standard/mocowania/inwazyjne/MOC_INW_BRAZOWY.png",
+                "imageColor": "../assets/roleta-standard/mocowania/wybierz-kolor/braz.png"
+              },
+              { 
+                "name": "Jasny Brąz", 
+                "imageLink": "../assets/roleta-standard/mocowania/inwazyjne/MOC_INW_JASNYBRAZ.png",
+                "imageColor": "../assets/roleta-standard/mocowania/wybierz-kolor/jasnybraz.png"
+              },
+              { 
+                "name": "Kremowy", 
+                "imageLink": "../assets/roleta-standard/mocowania/inwazyjne/MOC_INW_KREMOWY.png",
+                "imageColor": "../assets/roleta-standard/mocowania/wybierz-kolor/kremowy.png"
+              },
+              { 
+                "name": "Szary", 
+                "imageLink": "../assets/roleta-standard/mocowania/inwazyjne/MOC_INW_SZARY.png",
+                "imageColor": "../assets/roleta-standard/mocowania/wybierz-kolor/szary.png"
+              }
+            ],
+            "invasiveAngular": [
               { 
                 "name": "Białe", 
                 "imageLink": "../assets/roleta-standard/mocowania/inwazyjne/MOC_INW_BIALY.png",
@@ -1457,6 +1784,47 @@
               ]
             },
             "invasive": {
+              "width": [
+                { "range": [200, 350], "price": 120 },
+                { "range": [351, 400], "price": 125 },
+                { "range": [401, 450], "price": 130 },
+                { "range": [451, 500], "price": 135 },
+                { "range": [501, 550], "price": 140 },
+                { "range": [551, 600], "price": 145 },
+                { "range": [601, 650], "price": 150 },
+                { "range": [651, 700], "price": 155 },
+                { "range": [701, 750], "price": 160 },
+                { "range": [751, 800], "price": 165 },
+                { "range": [801, 850], "price": 170 },
+                { "range": [851, 900], "price": 175 },
+                { "range": [901, 950], "price": 180 },
+                { "range": [951, 1000], "price": 185 },
+                { "range": [1001, 1050], "price": 190 },
+                { "range": [1051, 1100], "price": 195 },
+                { "range": [1101, 1150], "price": 200 },
+                { "range": [1151, 1200], "price": 205 },
+                { "range": [1201, 1250], "price": 255 },
+                { "range": [1251, 1300], "price": 260 },
+                { "range": [1301, 1350], "price": 265 },
+                { "range": [1351, 1400], "price": 270 },
+                { "range": [1401, 1450], "price": 275 },
+                { "range": [1451, 1500], "price": 280 },
+                { "range": [1501, 1550], "price": 285 },
+                { "range": [1551, 1600], "price": 290 },
+                { "range": [1601, 1650], "price": 295 },
+                { "range": [1651, 1700], "price": 300 },
+                { "range": [1701, 1750], "price": 305 },
+                { "range": [1751, 1800], "price": 310 },
+                { "range": [1801, 1850], "price": 315 },
+                { "range": [1851, 2000], "price": 320 }
+              ],
+              "height": [
+                { "range": [150, 1500], "addition": 0 },
+                { "range": [1501, 2300], "addition": 15 },
+                { "range": [2301, 2800], "addition": 45 }
+              ]
+            },
+            "invasiveAngular": {
               "width": [
                 { "range": [200, 350], "price": 120 },
                 { "range": [351, 400], "price": 125 },

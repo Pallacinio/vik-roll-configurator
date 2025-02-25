@@ -67,7 +67,7 @@ function Cart() {
                 <p>Montaż: {item.mounting}</p>
                 <p>Szerokość [mm]: {item.width}</p>
                 <p>Wysokość [mm]: {item.height}</p>
-                <p>Listwa: {item.selectedListwa?.name}</p>
+                <p>Profil: {item.selectedListwa?.name}</p>
                 <p>Mocowania: {item.selectedMocowanie?.name}</p>
               </div>
               <div className="flex-grow flex-col">
