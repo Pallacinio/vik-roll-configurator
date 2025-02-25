@@ -19,7 +19,7 @@ function Layout() {
 
   return (
     <>
-      <Header />
+      {location.pathname !== "/" && <Header />}
       <Content>
         <Routes>
           <Route path="/" element={<Home />} />
@@ -32,7 +32,7 @@ function Layout() {
           <Route path="/login" element={<Login />} />
         </Routes>
       </Content>
-      <BackButton />
+      {location.pathname !== "/" && <BackButton />}
       {location.pathname !== "/" && <Footer />}
     </>
   );
