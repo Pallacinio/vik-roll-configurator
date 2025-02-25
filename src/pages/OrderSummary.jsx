@@ -23,10 +23,8 @@ function OrderSummary() {
   }, [navigate]);
 
   if (!order) {
-    return <p>Ładowanie podsumowania zamówienia...</p>;
+    return <p className="text-center">Ładowanie podsumowania zamówienia...</p>;
   }
-
-  const halfTotal = order.total / 2;
 
   return (
     <div className="order-summary">
@@ -114,7 +112,7 @@ function OrderSummary() {
         ))}
         <div className="total mt-4 text-center">
             <p className="pb-2 font-bold text-xs md:text-lg ">Suma łącznie: {order.total} zł</p>
-            <p className="pb-2 font-bold text-xs md:text-lg ">Ilość jednostek: {halfTotal}</p>
+            <p className="pb-2 font-bold text-xs md:text-lg ">Ilość jednostek: {order.total}</p>
             <p className="pb-2 font-bold text-xs md:text-lg ">Numer zamówienia: {order.orderNumber}</p>
             <p className="pb-10 font-bold text-xs md:text-lg ">Aukcja allegro: <a href="" className="text-[#ff5a00] uppercase underline">Kliknij Tutaj</a></p>
         </div>
