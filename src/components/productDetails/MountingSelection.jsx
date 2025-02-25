@@ -13,7 +13,7 @@ function MountingSelection({ mountingType, setMountingType }) {
           {[
             { type: "nonInvasive", label: "Bezinwazyjny", desc: "System bez wkręcania w okno" , img: Bezinwazyjne },
             { type: "invasive", label: "Inwazyjny", desc: "System wkręcamy w ramę okienną" , img: Inwazyjne },
-            { type: "invasiveAngular", label: "Inwazyjny Kątowe", desc: "System wkręcamy w ramę okienną" , img: InwazyjneKatowe },
+            { type: "invasiveAngular", label: "Inwazyjny Kątowy", desc: "System wkręcamy w ramę okienną" , img: InwazyjneKatowe },
           ].map(({ type, label, desc, img }) => (
             <div
               key={type}

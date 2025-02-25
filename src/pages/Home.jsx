@@ -13,13 +13,13 @@ function Home() {
   }, []);
 
   return (
-    <div className="min-h-[50vh] flex flex-col items-center justify-center px-4">
-      <h2 className="text-center text-3xl md:text-5xl lg:text-6xl font-bold mb-6 drop-shadow-lg">
+    <div className="min-h-[50vh] 2xl:min-h-[80vh]  flex flex-col items-center justify-center px-4">
+      <h2 className="gradient-text text-center text-3xl md:text-5xl lg:text-6xl font-bold mb-6">
         Twoje okna, Twoje zasady
       </h2>
       <Link
         to="/products"
-        className="px-8 py-4 text-xl md:text-4xl font-bold bg-white text-[#544e4a] border-4 border-[#544e4a] rounded-full shadow-lg transition-all duration-300 hover:scale-105"
+        className="px-8 py-4 text-xl md:text-4xl font-bold bg-white text-[#544e4a] border-4 border-[#544e4a] rounded-full transition-all duration-300 hover:scale-105"
       >
         Konfiguruj
       </Link>
