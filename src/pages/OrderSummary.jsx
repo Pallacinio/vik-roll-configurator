@@ -5,6 +5,8 @@ function OrderSummary() {
   const [order, setOrder] = useState(null);
   const navigate = useNavigate();
 
+  const totalFormatted = order?.total ? `${order.total.toFixed(2)} zł` : "";
+
   useEffect(() => {
     const fetchOrder = async () => {
       try {
@@ -60,7 +62,7 @@ function OrderSummary() {
         </span>
       </p>
       <h4 className="text-2xl md:text-6xl font-bold mb-6 text-center">
-        {halfTotal}
+        {totalFormatted}
       </h4>
       <div className="w-10/12 md:w-full mx-auto mb-6 flex items-center justify-center">
         <button className="px-5 md:px-10 py-4 rounded-[50px] bg-[#ebebeb]">
@@ -90,7 +92,7 @@ function OrderSummary() {
       </div>
       <h2 className="text-lg md:text-2xl font-bold mt-10 md:mt-20 mb-4 text-center uppercase">Szczegóły zamówienia</h2>
       <div className="flex flex-col gap-4 md:gap-10">
-        {order.items.map((item) => (
+        {order?.items?.map((item) => (
           <div key={item.id} className="flex items-center justify-center gap-4 mb-4">
             <img
               srcSet={item.imageLink}
