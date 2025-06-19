@@ -5,13 +5,16 @@ function AdminPanel() {
   const [orders, setOrders] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
+  const [searchTerm, setSearchTerm] = useState("");
+  const [currentPage, setCurrentPage] = useState(1);
+  const itemsPerPage = 10;
   const navigate = useNavigate();
 
   useEffect(() => {
     const token = localStorage.getItem("adminToken");
 
     if (!token) {
-      navigate("/login"); // Przekierowanie do logowania, jeśli brak tokena
+      navigate("/login");
       return;
     }
 
@@ -21,7 +24,7 @@ function AdminPanel() {
           method: "GET",
           headers: {
             "Content-Type": "application/json",
-            Authorization: `Bearer ${token}`, // Dodaj token do nagłówków
+            Authorization: `Bearer ${token}`,
           },
         });
 
@@ -41,6 +44,22 @@ function AdminPanel() {
     fetchOrders();
   }, [navigate]);
 
+  const filteredOrders = orders.filter((order) =>
+    order.orderNumber.toString().includes(searchTerm.trim())
+  );
+
+  const totalPages = Math.ceil(filteredOrders.length / itemsPerPage);
+
+  const currentOrders = filteredOrders.slice(
+    (currentPage - 1) * itemsPerPage,
+    currentPage * itemsPerPage
+  );
+
+  const handleSearchChange = (e) => {
+    setSearchTerm(e.target.value);
+    setCurrentPage(1);
+  };
+
   if (loading) return <p className="text-center py-10 font-bold">Ładowanie zamówień...</p>;
   if (error) return <p className="text-red-500">Błąd: {error}</p>;
 
@@ -58,7 +77,17 @@ function AdminPanel() {
         Wyloguj
       </button>
 
-      {orders.length === 0 ? (
+      <div className="mb-4">
+        <input
+          type="text"
+          placeholder="Wyszukaj po numerze zamówienia..."
+          value={searchTerm}
+          onChange={handleSearchChange}
+          className="w-full p-2 border border-gray-300 rounded-md"
+        />
+      </div>
+
+      {currentOrders.length === 0 ? (
         <p className="text-center text-gray-500">Brak zamówień</p>
       ) : (
         <div className="overflow-x-auto">
@@ -71,7 +100,7 @@ function AdminPanel() {
               </tr>
             </thead>
             <tbody>
-              {orders.map((order) => (
+              {currentOrders.map((order) => (
                 <tr key={order.orderNumber} className="text-center text-xs md:text-base border-t">
                   <td className="border p-2">{order.orderNumber}</td>
                   <td className="border p-2 text-left">
@@ -98,6 +127,34 @@ function AdminPanel() {
               ))}
             </tbody>
           </table>
+        </div>
+      )}
+
+      {totalPages > 1 && (
+        <div className="flex justify-center mt-4 space-x-2">
+          <button
+            disabled={currentPage <= 1}
+            onClick={() => setCurrentPage(currentPage - 1)}
+            className={`px-4 py-2 rounded-md border ${
+              currentPage <= 1 ? "text-gray-400 border-gray-300" : "border-gray-700"
+            }`}
+          >
+            Poprzednia
+          </button>
+
+          <span className="px-4 py-2">
+            Strona {currentPage} z {totalPages}
+          </span>
+
+          <button
+            disabled={currentPage >= totalPages}
+            onClick={() => setCurrentPage(currentPage + 1)}
+            className={`px-4 py-2 rounded-md border ${
+              currentPage >= totalPages ? "text-gray-400 border-gray-300" : "border-gray-700"
+            }`}
+          >
+            Następna
+          </button>
         </div>
       )}
     </div>
