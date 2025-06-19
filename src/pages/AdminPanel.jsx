@@ -41,7 +41,7 @@ function AdminPanel() {
     fetchOrders();
   }, [navigate]);
 
-  if (loading) return <p>Ładowanie zamówień...</p>;
+  if (loading) return <p className="text-center py-10 font-bold">Ładowanie zamówień...</p>;
   if (error) return <p className="text-red-500">Błąd: {error}</p>;
 
   return (
