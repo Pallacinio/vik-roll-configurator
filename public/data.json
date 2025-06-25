@@ -1871,66 +1871,66 @@
     {
       "id": "5",
       "type": "Dolomit",
-      "typeImage": "../assets/melange-termo/melange-termo.png",
+      "typeImage": "../assets/dolomit/dolomit.png",
       "typeDescription": "Jednolita, gładka struktura tkaniny. Naturalny wygląd i subtelny połysk. 10 kolorów do wyboru. 100% poliester.",
       "options": {
         "colors": [
           {
-            "name": "Kremowy",
+            "name": "Piaskowiec",
             "imageLink": "../assets/dolomit/okno/300_OD_INW.jpg",
             "imageLinkSecond": "../assets/dolomit/okno/bezinw/300_OD_BEZINW.jpg",
             "imageLinkHover": "../assets/dolomit/tkanina/300_RD.jpg"
           },
           {
-            "name": "Beżowo-kremowy",
+            "name": "Wanilia",
             "imageLink": "../assets/dolomit/okno/301_OD_INW.jpg",
             "imageLinkSecond": "../assets/dolomit/okno/bezinw/301_OD_BEZINW.jpg",
             "imageLinkHover": "../assets/dolomit/tkanina/301_RD.jpg"
           },
           {
-            "name": "Jasny beż",
+            "name": "Dąb",
             "imageLink": "../assets/dolomit/okno/302_OD_INW.jpg",
             "imageLinkSecond": "../assets/dolomit/okno/bezinw/302_OD_BEZINW.jpg",
             "imageLinkHover": "../assets/dolomit/tkanina/302_RD.jpg"
           },
           {
-            "name": "Beżowy",
+            "name": "Mokka",
             "imageLink": "../assets/dolomit/okno/303_OD_INW.jpg",
             "imageLinkSecond": "../assets/dolomit/okno/bezinw/303_OD_BEZINW.jpg",
             "imageLinkHover": "../assets/dolomit/tkanina/303_RD.jpg"
           },
           {
-            "name": "Chłodny odcień szarości",
+            "name": "Szron",
             "imageLink": "../assets/dolomit/okno/304_OD_INW.jpg",
             "imageLinkSecond": "../assets/dolomit/okno/bezinw/304_OD_BEZINW.jpg",
             "imageLinkHover": "../assets/dolomit/tkanina/304_RD.jpg"
           },
           {
-            "name": "Taupe",
+            "name": "Beż",
             "imageLink": "../assets/dolomit/okno/305_OD_INW.jpg",
             "imageLinkSecond": "../assets/dolomit/okno/bezinw/305_OD_BEZINW.jpg",
             "imageLinkHover": "../assets/dolomit/tkanina/305_RD.jpg"
           },
           {
-            "name": "Antracytowy",
+            "name": "Jasnoszary",
             "imageLink": "../assets/dolomit/okno/306_OD_INW.jpg",
             "imageLinkSecond": "../assets/dolomit/okno/bezinw/306_OD_BEZINW.jpg",
             "imageLinkHover": "../assets/dolomit/tkanina/306_RD.jpg"
           },
           {
-            "name": "Mokka",
+            "name": "Popiel",
             "imageLink": "../assets/dolomit/okno/307_OD_INW.jpg",
             "imageLinkSecond": "../assets/dolomit/okno/bezinw/307_OD_BEZINW.jpg",
             "imageLinkHover": "../assets/dolomit/tkanina/307_RD.jpg"
           },
           {
-            "name": "Mokka",
+            "name": "Stal",
             "imageLink": "../assets/dolomit/okno/308_OD_INW.jpg",
             "imageLinkSecond": "../assets/dolomit/okno/bezinw/308_OD_BEZINW.jpg",
             "imageLinkHover": "../assets/dolomit/tkanina/308_RD.jpg"
           },
           {
-            "name": "Mokka",
+            "name": "Grafit",
             "imageLink": "../assets/dolomit/okno/309_OD_INW.jpg",
             "imageLinkSecond": "../assets/dolomit/okno/bezinw/309_OD_BEZINW.jpg",
             "imageLinkHover": "../assets/dolomit/tkanina/309_RD.jpg"
@@ -2266,66 +2266,66 @@
     {
       "id": "6",
       "type": "Dolomit termo",
-      "typeImage": "../assets/melange-termo/melange-termo.png",
+      "typeImage": "../assets/dolomit-termo/dolomit-termo.png",
       "typeDescription": "Jednolita, gładka struktura tkaniny. Powłoka odbijająca promienie słoneczne, która jednocześnie zapewnia lepszą izolację termiczną wnętrza. 10 kolorów do wyboru. 100% poliester.",
       "options": {
         "colors": [
           {
-            "name": "Kremowy",
+            "name": "Piaskowiec",
             "imageLink": "../assets/dolomit-termo/okno/300_ODT_INW.jpg",
             "imageLinkSecond": "../assets/dolomit-termo/okno/bezinw/300_ODT_BEZINW.jpg",
             "imageLinkHover": "../assets/dolomit-termo/tkanina/300_RDT.jpg"
           },
           {
-            "name": "Beżowo-kremowy",
+            "name": "Wanilia",
             "imageLink": "../assets/dolomit-termo/okno/301_ODT_INW.jpg",
             "imageLinkSecond": "../assets/dolomit-termo/okno/bezinw/301_ODT_BEZINW.jpg",
             "imageLinkHover": "../assets/dolomit-termo/tkanina/301_RDT.jpg"
           },
           {
-            "name": "Jasny beż",
+            "name": "Dąb",
             "imageLink": "../assets/dolomit-termo/okno/302_ODT_INW.jpg",
             "imageLinkSecond": "../assets/dolomit-termo/okno/bezinw/302_ODT_BEZINW.jpg",
             "imageLinkHover": "../assets/dolomit-termo/tkanina/302_RDT.jpg"
           },
           {
-            "name": "Beżowy",
+            "name": "Mokka",
             "imageLink": "../assets/dolomit-termo/okno/303_ODT_INW.jpg",
             "imageLinkSecond": "../assets/dolomit-termo/okno/bezinw/303_ODT_BEZINW.jpg",
             "imageLinkHover": "../assets/dolomit-termo/tkanina/303_RDT.jpg"
           },
           {
-            "name": "Chłodny odcień szarości",
+            "name": "Szron",
             "imageLink": "../assets/dolomit-termo/okno/304_ODT_INW.jpg",
             "imageLinkSecond": "../assets/dolomit-termo/okno/bezinw/304_ODT_BEZINW.jpg",
             "imageLinkHover": "../assets/dolomit-termo/tkanina/304_RDT.jpg"
           },
           {
-            "name": "Taupe",
+            "name": "Beż",
             "imageLink": "../assets/dolomit-termo/okno/305_ODT_INW.jpg",
             "imageLinkSecond": "../assets/dolomit-termo/okno/bezinw/305_ODT_BEZINW.jpg",
             "imageLinkHover": "../assets/dolomit-termo/tkanina/305_RDT.jpg"
           },
           {
-            "name": "Antracytowy",
+            "name": "Jasnoszary",
             "imageLink": "../assets/dolomit-termo/okno/306_ODT_INW.jpg",
             "imageLinkSecond": "../assets/dolomit-termo/okno/bezinw/306_ODT_BEZINW.jpg",
             "imageLinkHover": "../assets/dolomit-termo/tkanina/306_RDT.jpg"
           },
           {
-            "name": "Mokka",
+            "name": "Popiel",
             "imageLink": "../assets/dolomit-termo/okno/307_ODT_INW.jpg",
             "imageLinkSecond": "../assets/dolomit-termo/okno/bezinw/307_ODT_BEZINW.jpg",
             "imageLinkHover": "../assets/dolomit-termo/tkanina/307_RDT.jpg"
           },
           {
-            "name": "Mokka",
+            "name": "Stal",
             "imageLink": "../assets/dolomit-termo/okno/308_ODT_INW.jpg",
             "imageLinkSecond": "../assets/dolomit-termo/okno/bezinw/308_ODT_BEZINW.jpg",
             "imageLinkHover": "../assets/dolomit-termo/tkanina/308_RDT.jpg"
           },
           {
-            "name": "Mokka",
+            "name": "Grafit",
             "imageLink": "../assets/dolomit-termo/okno/309_ODT_INW.jpg",
             "imageLinkSecond": "../assets/dolomit-termo/okno/bezinw/309_ODT_BEZINW.jpg",
             "imageLinkHover": "../assets/dolomit-termo/tkanina/309_RDT.jpg"
@@ -2661,7 +2661,7 @@
     {
       "id": "7",
       "type": "100% Zaciemnienia",
-      "typeImage": "../assets/melange-termo/melange-termo.png",
+      "typeImage": "../assets/zaciemnienia/zaciemniane.png",
       "typeDescription": "Tkanina o pełnym zaciemnieniu. Trójwarstwowa struktura z warstwą blackout skutecznie blokującą światło. Zapewnia maksymalną prywatność i izolację termiczną. 1 kolorów do wyboru. 100% poliester.",
       "options": {
         "colors": [
