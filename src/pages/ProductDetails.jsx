@@ -133,13 +133,20 @@ function ProductDetails() {
 
     Swal.fire({
       icon: "success",
-      title: "Produkt został dodany do koszyka!",
+      title: "Produkt został dodany do koszyka! Skonfiguruj następny",
       confirmButtonText: "OK",
       customClass: {
         confirmButton: 'bg-[#544e4a] text-white'
       }
     }).then(() => {
-      window.location.href = '/cart';
+      setSelectedListwa(null);
+      setSelectedMocowanie(null);
+      setMountingType("invasive");
+      setQuantity(1);
+      setWidth("");
+      setHeight("");
+      setPrice(0);
+      setError("");
     });
     
   };
